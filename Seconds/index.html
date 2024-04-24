@@ -1,0 +1,4774 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="https://ritger-alliander.github.io/im-cim-v100/Seconds/" rel="canonical"/>
+<link href="../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.6.0, mkdocs-material-8.5.10" name="generator"/>
+<title>Class: Seconds - im-cim-v100</title>
+<link href="../assets/stylesheets/main.975780f9.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
+<meta content="#4cae4f" name="theme-color"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="deep-orange" data-md-color-primary="green" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#class-seconds">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="im-cim-v100" class="md-header__button md-logo" data-md-component="logo" href=".." title="im-cim-v100">
+<img alt="logo" src="../assets/alliander_logo_wit.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            im-cim-v100
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Class: Seconds
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/ritger-alliander/im-cim-v100" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="im-cim-v100" class="md-nav__button md-logo" data-md-component="logo" href=".." title="im-cim-v100">
+<img alt="logo" src="../assets/alliander_logo_wit.png"/>
+</a>
+    im-cim-v100
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/ritger-alliander/im-cim-v100" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="..">
+        Index
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../about/">
+        About
+      </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#slots">
+    Slots
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#usages">
+    Usages
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#identifier-and-mapping-information">
+    Identifier and Mapping Information
+  </a>
+<nav aria-label="Identifier and Mapping Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#annotations">
+    Annotations
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#schema-source">
+    Schema Source
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mappings">
+    Mappings
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#linkml-source">
+    LinkML Source
+  </a>
+<nav aria-label="LinkML Source" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#direct">
+    Direct
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#induced">
+    Induced
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<a class="md-content__button md-icon" href="https://github.com/ritger-alliander/im-cim-v100/edit/master/docs/Seconds.md" title="Edit this page">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
+</a>
+<h1 id="class-seconds">Class: Seconds</h1>
+<p>_Time, in seconds.
+_</p>
+<p>__</p>
+<p>URI: <a href="https://cim.ucaiug.io/ns#Seconds">cim:Seconds</a></p>
+<pre class="mermaid"><code> classDiagram
+    class Seconds
+      Seconds : multiplier
+
+          Seconds --&gt; UnitMultiplier : multiplier
+
+      Seconds : unit
+
+          Seconds --&gt; UnitSymbol : unit
+
+      Seconds : value
+
+</code></pre>
+<!-- no inheritance hierarchy -->
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cardinality and Range</th>
+<th>Description</th>
+<th>Inheritance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../multiplier/">multiplier</a></td>
+<td>0..1 <br/> <a href="../UnitMultiplier/">UnitMultiplier</a></td>
+<td></td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../unit/">unit</a></td>
+<td>0..1 <br/> <a href="../UnitSymbol/">UnitSymbol</a></td>
+<td></td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../value/">value</a></td>
+<td>0..1 <br/> <a href="../Float/">Float</a></td>
+<td>Time, in seconds</td>
+<td>direct</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usages">Usages</h2>
+<table>
+<thead>
+<tr>
+<th>used by</th>
+<th>used in</th>
+<th>type</th>
+<th>used</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../WorkTimeSchedule/">WorkTimeSchedule</a></td>
+<td><a href="../offset/">offset</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WorkTimeSchedule/">WorkTimeSchedule</a></td>
+<td><a href="../recurrence_period/">recurrence_period</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../TimeSchedule/">TimeSchedule</a></td>
+<td><a href="../offset/">offset</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../TimeSchedule/">TimeSchedule</a></td>
+<td><a href="../recurrence_period/">recurrence_period</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PinMeasurement/">PinMeasurement</a></td>
+<td><a href="../duration/">duration</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GateInputPin/">GateInputPin</a></td>
+<td><a href="../duration/">duration</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ProtectionEquipment/">ProtectionEquipment</a></td>
+<td><a href="../relay_delay_time/">relay_delay_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../RemoteConnectDisconnectInfo/">RemoteConnectDisconnectInfo</a></td>
+<td><a href="../armed_timeout/">armed_timeout</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SwitchSchedule/">SwitchSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SeasonDayTypeSchedule/">SeasonDayTypeSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../RegularIntervalSchedule/">RegularIntervalSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../RecloseSequence/">RecloseSequence</a></td>
+<td><a href="../reclose_delay/">reclose_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PinGate/">PinGate</a></td>
+<td><a href="../duration/">duration</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../RemoteSource/">RemoteSource</a></td>
+<td><a href="../scan_interval/">scan_interval</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../BidHourlyProductSchedule/">BidHourlyProductSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../BidSelfSched/">BidSelfSched</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ThermalGeneratingUnit/">ThermalGeneratingUnit</a></td>
+<td><a href="../control_pulse_high/">control_pulse_high</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ThermalGeneratingUnit/">ThermalGeneratingUnit</a></td>
+<td><a href="../control_pulse_low/">control_pulse_low</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ThermalGeneratingUnit/">ThermalGeneratingUnit</a></td>
+<td><a href="../minimum_off_time/">minimum_off_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ThermalGeneratingUnit/">ThermalGeneratingUnit</a></td>
+<td><a href="../startup_time/">startup_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GeneratingUnit/">GeneratingUnit</a></td>
+<td><a href="../control_pulse_high/">control_pulse_high</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GeneratingUnit/">GeneratingUnit</a></td>
+<td><a href="../control_pulse_low/">control_pulse_low</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GeneratingUnit/">GeneratingUnit</a></td>
+<td><a href="../minimum_off_time/">minimum_off_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GeneratingUnit/">GeneratingUnit</a></td>
+<td><a href="../startup_time/">startup_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GenUnitOpSchedule/">GenUnitOpSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../RegulationSchedule/">RegulationSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../HydroPumpOpSchedule/">HydroPumpOpSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../HydroPowerPlant/">HydroPowerPlant</a></td>
+<td><a href="../discharge_travel_delay/">discharge_travel_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Reservoir/">Reservoir</a></td>
+<td><a href="../spill_travel_delay/">spill_travel_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../InflowForecast/">InflowForecast</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../HydroGeneratingUnit/">HydroGeneratingUnit</a></td>
+<td><a href="../control_pulse_high/">control_pulse_high</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../HydroGeneratingUnit/">HydroGeneratingUnit</a></td>
+<td><a href="../control_pulse_low/">control_pulse_low</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../HydroGeneratingUnit/">HydroGeneratingUnit</a></td>
+<td><a href="../minimum_off_time/">minimum_off_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../HydroGeneratingUnit/">HydroGeneratingUnit</a></td>
+<td><a href="../startup_time/">startup_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SteamSendoutSchedule/">SteamSendoutSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../CombustionTurbine/">CombustionTurbine</a></td>
+<td><a href="../time_constant/">time_constant</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SynchronousMachine/">SynchronousMachine</a></td>
+<td><a href="../a_vrto_manual_lag/">a_vrto_manual_lag</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SynchronousMachine/">SynchronousMachine</a></td>
+<td><a href="../a_vrto_manual_lead/">a_vrto_manual_lead</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SynchronousMachine/">SynchronousMachine</a></td>
+<td><a href="../manual_to_avr/">manual_to_avr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SynchronousMachineDynamics/">SynchronousMachineDynamics</a></td>
+<td><a href="../inertia/">inertia</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../RotatingMachineDynamics/">RotatingMachineDynamics</a></td>
+<td><a href="../inertia/">inertia</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../VCompIEEEType2/">VCompIEEEType2</a></td>
+<td><a href="../tr/">tr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../AsynchronousMachineDynamics/">AsynchronousMachineDynamics</a></td>
+<td><a href="../inertia/">inertia</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../AsynchronousMachine/">AsynchronousMachine</a></td>
+<td><a href="../tpo/">tpo</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../AsynchronousMachine/">AsynchronousMachine</a></td>
+<td><a href="../tppo/">tppo</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../HeatRecoveryBoiler/">HeatRecoveryBoiler</a></td>
+<td><a href="../feed_water_tc/">feed_water_tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../HeatRecoveryBoiler/">HeatRecoveryBoiler</a></td>
+<td><a href="../fuel_supply_delay/">fuel_supply_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../HeatRecoveryBoiler/">HeatRecoveryBoiler</a></td>
+<td><a href="../fuel_supply_tc/">fuel_supply_tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../HeatRecoveryBoiler/">HeatRecoveryBoiler</a></td>
+<td><a href="../mech_power_sensor_lag/">mech_power_sensor_lag</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../FossilSteamSupply/">FossilSteamSupply</a></td>
+<td><a href="../feed_water_tc/">feed_water_tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../FossilSteamSupply/">FossilSteamSupply</a></td>
+<td><a href="../fuel_supply_delay/">fuel_supply_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../FossilSteamSupply/">FossilSteamSupply</a></td>
+<td><a href="../fuel_supply_tc/">fuel_supply_tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../FossilSteamSupply/">FossilSteamSupply</a></td>
+<td><a href="../mech_power_sensor_lag/">mech_power_sensor_lag</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SteamTurbine/">SteamTurbine</a></td>
+<td><a href="../crossover_tc/">crossover_tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SteamTurbine/">SteamTurbine</a></td>
+<td><a href="../reheater_tc/">reheater_tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SteamTurbine/">SteamTurbine</a></td>
+<td><a href="../steam_chest_tc/">steam_chest_tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../BidPriceSchedule/">BidPriceSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../AreaLoadCurve/">AreaLoadCurve</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ResourcePerformanceTimeSeriesFactor/">ResourcePerformanceTimeSeriesFactor</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../MktGeneratingUnit/">MktGeneratingUnit</a></td>
+<td><a href="../control_pulse_high/">control_pulse_high</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../MktGeneratingUnit/">MktGeneratingUnit</a></td>
+<td><a href="../control_pulse_low/">control_pulse_low</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../MktGeneratingUnit/">MktGeneratingUnit</a></td>
+<td><a href="../minimum_off_time/">minimum_off_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../MktGeneratingUnit/">MktGeneratingUnit</a></td>
+<td><a href="../startup_time/">startup_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../MktThermalGeneratingUnit/">MktThermalGeneratingUnit</a></td>
+<td><a href="../control_pulse_high/">control_pulse_high</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../MktThermalGeneratingUnit/">MktThermalGeneratingUnit</a></td>
+<td><a href="../control_pulse_low/">control_pulse_low</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../MktThermalGeneratingUnit/">MktThermalGeneratingUnit</a></td>
+<td><a href="../minimum_off_time/">minimum_off_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../MktThermalGeneratingUnit/">MktThermalGeneratingUnit</a></td>
+<td><a href="../startup_time/">startup_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../BidHourlySchedule/">BidHourlySchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../MarketScheduledEvent/">MarketScheduledEvent</a></td>
+<td><a href="../duration/">duration</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ClassificationCondition/">ClassificationCondition</a></td>
+<td><a href="../duration/">duration</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../TimePoint/">TimePoint</a></td>
+<td><a href="../relative_time_interval/">relative_time_interval</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ScheduledEvent/">ScheduledEvent</a></td>
+<td><a href="../duration/">duration</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PhaseTapChanger/">PhaseTapChanger</a></td>
+<td><a href="../initial_delay/">initial_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PhaseTapChanger/">PhaseTapChanger</a></td>
+<td><a href="../subsequent_delay/">subsequent_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../TapChanger/">TapChanger</a></td>
+<td><a href="../initial_delay/">initial_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../TapChanger/">TapChanger</a></td>
+<td><a href="../subsequent_delay/">subsequent_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../TapSchedule/">TapSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../RatioTapChanger/">RatioTapChanger</a></td>
+<td><a href="../initial_delay/">initial_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../RatioTapChanger/">RatioTapChanger</a></td>
+<td><a href="../subsequent_delay/">subsequent_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PinBranchGroup/">PinBranchGroup</a></td>
+<td><a href="../duration/">duration</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PinTerminal/">PinTerminal</a></td>
+<td><a href="../duration/">duration</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PinEquipment/">PinEquipment</a></td>
+<td><a href="../duration/">duration</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../OperationalLimitType/">OperationalLimitType</a></td>
+<td><a href="../acceptable_duration/">acceptable_duration</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../IrregularTimePoint/">IrregularTimePoint</a></td>
+<td><a href="../time/">time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ShuntCompensator/">ShuntCompensator</a></td>
+<td><a href="../a_vrdelay/">a_vrdelay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PhaseTapChangerTabular/">PhaseTapChangerTabular</a></td>
+<td><a href="../initial_delay/">initial_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PhaseTapChangerTabular/">PhaseTapChangerTabular</a></td>
+<td><a href="../subsequent_delay/">subsequent_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Breaker/">Breaker</a></td>
+<td><a href="../in_transit_time/">in_transit_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PhaseTapChangerAsymmetrical/">PhaseTapChangerAsymmetrical</a></td>
+<td><a href="../initial_delay/">initial_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PhaseTapChangerAsymmetrical/">PhaseTapChangerAsymmetrical</a></td>
+<td><a href="../subsequent_delay/">subsequent_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PhaseTapChangerNonLinear/">PhaseTapChangerNonLinear</a></td>
+<td><a href="../initial_delay/">initial_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PhaseTapChangerNonLinear/">PhaseTapChangerNonLinear</a></td>
+<td><a href="../subsequent_delay/">subsequent_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PhaseTapChangerSymmetrical/">PhaseTapChangerSymmetrical</a></td>
+<td><a href="../initial_delay/">initial_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PhaseTapChangerSymmetrical/">PhaseTapChangerSymmetrical</a></td>
+<td><a href="../subsequent_delay/">subsequent_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PhaseTapChangerLinear/">PhaseTapChangerLinear</a></td>
+<td><a href="../initial_delay/">initial_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PhaseTapChangerLinear/">PhaseTapChangerLinear</a></td>
+<td><a href="../subsequent_delay/">subsequent_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../LinearShuntCompensator/">LinearShuntCompensator</a></td>
+<td><a href="../a_vrdelay/">a_vrdelay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../NonlinearShuntCompensator/">NonlinearShuntCompensator</a></td>
+<td><a href="../a_vrdelay/">a_vrdelay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../DisconnectingCircuitBreaker/">DisconnectingCircuitBreaker</a></td>
+<td><a href="../in_transit_time/">in_transit_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../BWRSteamSupply/">BWRSteamSupply</a></td>
+<td><a href="../in_core_thermal_tc/">in_core_thermal_tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../BWRSteamSupply/">BWRSteamSupply</a></td>
+<td><a href="../pressure_setpoint_tc/">pressure_setpoint_tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Subcritical/">Subcritical</a></td>
+<td><a href="../feed_water_tc/">feed_water_tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Subcritical/">Subcritical</a></td>
+<td><a href="../fuel_supply_delay/">fuel_supply_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Subcritical/">Subcritical</a></td>
+<td><a href="../fuel_supply_tc/">fuel_supply_tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Subcritical/">Subcritical</a></td>
+<td><a href="../mech_power_sensor_lag/">mech_power_sensor_lag</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../DrumBoiler/">DrumBoiler</a></td>
+<td><a href="../feed_water_tc/">feed_water_tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../DrumBoiler/">DrumBoiler</a></td>
+<td><a href="../fuel_supply_delay/">fuel_supply_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../DrumBoiler/">DrumBoiler</a></td>
+<td><a href="../fuel_supply_tc/">fuel_supply_tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../DrumBoiler/">DrumBoiler</a></td>
+<td><a href="../mech_power_sensor_lag/">mech_power_sensor_lag</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Supercritical/">Supercritical</a></td>
+<td><a href="../feed_water_tc/">feed_water_tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Supercritical/">Supercritical</a></td>
+<td><a href="../fuel_supply_delay/">fuel_supply_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Supercritical/">Supercritical</a></td>
+<td><a href="../fuel_supply_tc/">fuel_supply_tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Supercritical/">Supercritical</a></td>
+<td><a href="../mech_power_sensor_lag/">mech_power_sensor_lag</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../HydroTurbine/">HydroTurbine</a></td>
+<td><a href="../transient_droop_time/">transient_droop_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../HydroTurbine/">HydroTurbine</a></td>
+<td><a href="../water_starting_time/">water_starting_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../NuclearGeneratingUnit/">NuclearGeneratingUnit</a></td>
+<td><a href="../control_pulse_high/">control_pulse_high</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../NuclearGeneratingUnit/">NuclearGeneratingUnit</a></td>
+<td><a href="../control_pulse_low/">control_pulse_low</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../NuclearGeneratingUnit/">NuclearGeneratingUnit</a></td>
+<td><a href="../minimum_off_time/">minimum_off_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../NuclearGeneratingUnit/">NuclearGeneratingUnit</a></td>
+<td><a href="../startup_time/">startup_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindGeneratingUnit/">WindGeneratingUnit</a></td>
+<td><a href="../control_pulse_high/">control_pulse_high</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindGeneratingUnit/">WindGeneratingUnit</a></td>
+<td><a href="../control_pulse_low/">control_pulse_low</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindGeneratingUnit/">WindGeneratingUnit</a></td>
+<td><a href="../minimum_off_time/">minimum_off_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindGeneratingUnit/">WindGeneratingUnit</a></td>
+<td><a href="../startup_time/">startup_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SolarGeneratingUnit/">SolarGeneratingUnit</a></td>
+<td><a href="../control_pulse_high/">control_pulse_high</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SolarGeneratingUnit/">SolarGeneratingUnit</a></td>
+<td><a href="../control_pulse_low/">control_pulse_low</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SolarGeneratingUnit/">SolarGeneratingUnit</a></td>
+<td><a href="../minimum_off_time/">minimum_off_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SolarGeneratingUnit/">SolarGeneratingUnit</a></td>
+<td><a href="../startup_time/">startup_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ConformLoadSchedule/">ConformLoadSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../NonConformLoadSchedule/">NonConformLoadSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../CurrentRelay/">CurrentRelay</a></td>
+<td><a href="../time_delay/">time_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../CurrentRelay/">CurrentRelay</a></td>
+<td><a href="../relay_delay_time/">relay_delay_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SynchrocheckRelay/">SynchrocheckRelay</a></td>
+<td><a href="../relay_delay_time/">relay_delay_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SynchronousMachineSimplified/">SynchronousMachineSimplified</a></td>
+<td><a href="../inertia/">inertia</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SynchronousMachineDetailed/">SynchronousMachineDetailed</a></td>
+<td><a href="../inertia/">inertia</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SynchronousMachineTimeConstantReactance/">SynchronousMachineTimeConstantReactance</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SynchronousMachineTimeConstantReactance/">SynchronousMachineTimeConstantReactance</a></td>
+<td><a href="../tpdo/">tpdo</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SynchronousMachineTimeConstantReactance/">SynchronousMachineTimeConstantReactance</a></td>
+<td><a href="../tppdo/">tppdo</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SynchronousMachineTimeConstantReactance/">SynchronousMachineTimeConstantReactance</a></td>
+<td><a href="../tppqo/">tppqo</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SynchronousMachineTimeConstantReactance/">SynchronousMachineTimeConstantReactance</a></td>
+<td><a href="../tpqo/">tpqo</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SynchronousMachineTimeConstantReactance/">SynchronousMachineTimeConstantReactance</a></td>
+<td><a href="../inertia/">inertia</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SynchronousMachineEquivalentCircuit/">SynchronousMachineEquivalentCircuit</a></td>
+<td><a href="../inertia/">inertia</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../AsynchronousMachineTimeConstantReactance/">AsynchronousMachineTimeConstantReactance</a></td>
+<td><a href="../tpo/">tpo</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../AsynchronousMachineTimeConstantReactance/">AsynchronousMachineTimeConstantReactance</a></td>
+<td><a href="../tppo/">tppo</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../AsynchronousMachineTimeConstantReactance/">AsynchronousMachineTimeConstantReactance</a></td>
+<td><a href="../inertia/">inertia</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../AsynchronousMachineEquivalentCircuit/">AsynchronousMachineEquivalentCircuit</a></td>
+<td><a href="../inertia/">inertia</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroIEEE0/">GovHydroIEEE0</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroIEEE2/">GovHydroIEEE2</a></td>
+<td><a href="../tg/">tg</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroIEEE2/">GovHydroIEEE2</a></td>
+<td><a href="../tp/">tp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroIEEE2/">GovHydroIEEE2</a></td>
+<td><a href="../tr/">tr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroIEEE2/">GovHydroIEEE2</a></td>
+<td><a href="../tw/">tw</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamIEEE1/">GovSteamIEEE1</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT1/">GovCT1</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT1/">GovCT1</a></td>
+<td><a href="../tact/">tact</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT1/">GovCT1</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT1/">GovCT1</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT1/">GovCT1</a></td>
+<td><a href="../tdgov/">tdgov</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT1/">GovCT1</a></td>
+<td><a href="../teng/">teng</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT1/">GovCT1</a></td>
+<td><a href="../tfload/">tfload</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT1/">GovCT1</a></td>
+<td><a href="../tpelec/">tpelec</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT1/">GovCT1</a></td>
+<td><a href="../tsa/">tsa</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT1/">GovCT1</a></td>
+<td><a href="../tsb/">tsb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT2/">GovCT2</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT2/">GovCT2</a></td>
+<td><a href="../tact/">tact</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT2/">GovCT2</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT2/">GovCT2</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT2/">GovCT2</a></td>
+<td><a href="../tdgov/">tdgov</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT2/">GovCT2</a></td>
+<td><a href="../teng/">teng</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT2/">GovCT2</a></td>
+<td><a href="../tfload/">tfload</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT2/">GovCT2</a></td>
+<td><a href="../tpelec/">tpelec</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT2/">GovCT2</a></td>
+<td><a href="../tsa/">tsa</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovCT2/">GovCT2</a></td>
+<td><a href="../tsb/">tsb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST/">GovGAST</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST1/">GovGAST1</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST1/">GovGAST1</a></td>
+<td><a href="../tltr/">tltr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST2/">GovGAST2</a></td>
+<td><a href="../ecr/">ecr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST2/">GovGAST2</a></td>
+<td><a href="../etd/">etd</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST2/">GovGAST2</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST2/">GovGAST2</a></td>
+<td><a href="../tcd/">tcd</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST2/">GovGAST2</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST2/">GovGAST2</a></td>
+<td><a href="../tt/">tt</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST2/">GovGAST2</a></td>
+<td><a href="../x/">x</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST2/">GovGAST2</a></td>
+<td><a href="../y/">y</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST3/">GovGAST3</a></td>
+<td><a href="../tac/">tac</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST3/">GovGAST3</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST3/">GovGAST3</a></td>
+<td><a href="../td/">td</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST3/">GovGAST3</a></td>
+<td><a href="../tg/">tg</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST3/">GovGAST3</a></td>
+<td><a href="../tsi/">tsi</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST3/">GovGAST3</a></td>
+<td><a href="../ttc/">ttc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST3/">GovGAST3</a></td>
+<td><a href="../ty/">ty</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST4/">GovGAST4</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST4/">GovGAST4</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST4/">GovGAST4</a></td>
+<td><a href="../tcm/">tcm</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST4/">GovGAST4</a></td>
+<td><a href="../tm/">tm</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGAST4/">GovGAST4</a></td>
+<td><a href="../ty/">ty</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGASTWD/">GovGASTWD</a></td>
+<td><a href="../ecr/">ecr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGASTWD/">GovGASTWD</a></td>
+<td><a href="../etd/">etd</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGASTWD/">GovGASTWD</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGASTWD/">GovGASTWD</a></td>
+<td><a href="../tcd/">tcd</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGASTWD/">GovGASTWD</a></td>
+<td><a href="../td/">td</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGASTWD/">GovGASTWD</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovGASTWD/">GovGASTWD</a></td>
+<td><a href="../tt/">tt</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro1/">GovHydro1</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro1/">GovHydro1</a></td>
+<td><a href="../tg/">tg</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro1/">GovHydro1</a></td>
+<td><a href="../tr/">tr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro1/">GovHydro1</a></td>
+<td><a href="../tw/">tw</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro2/">GovHydro2</a></td>
+<td><a href="../tg/">tg</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro2/">GovHydro2</a></td>
+<td><a href="../tp/">tp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro2/">GovHydro2</a></td>
+<td><a href="../tr/">tr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro2/">GovHydro2</a></td>
+<td><a href="../tw/">tw</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro3/">GovHydro3</a></td>
+<td><a href="../td/">td</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro3/">GovHydro3</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro3/">GovHydro3</a></td>
+<td><a href="../tp/">tp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro3/">GovHydro3</a></td>
+<td><a href="../tt/">tt</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro3/">GovHydro3</a></td>
+<td><a href="../tw/">tw</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro4/">GovHydro4</a></td>
+<td><a href="../rperm/">rperm</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro4/">GovHydro4</a></td>
+<td><a href="../rtemp/">rtemp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro4/">GovHydro4</a></td>
+<td><a href="../tblade/">tblade</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro4/">GovHydro4</a></td>
+<td><a href="../tg/">tg</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro4/">GovHydro4</a></td>
+<td><a href="../tp/">tp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro4/">GovHydro4</a></td>
+<td><a href="../tr/">tr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydro4/">GovHydro4</a></td>
+<td><a href="../tw/">tw</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroDD/">GovHydroDD</a></td>
+<td><a href="../td/">td</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroDD/">GovHydroDD</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroDD/">GovHydroDD</a></td>
+<td><a href="../tp/">tp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroDD/">GovHydroDD</a></td>
+<td><a href="../tt/">tt</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroDD/">GovHydroDD</a></td>
+<td><a href="../tturb/">tturb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroFrancis/">GovHydroFrancis</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroFrancis/">GovHydroFrancis</a></td>
+<td><a href="../td/">td</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroFrancis/">GovHydroFrancis</a></td>
+<td><a href="../ts/">ts</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroFrancis/">GovHydroFrancis</a></td>
+<td><a href="../twnc/">twnc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroFrancis/">GovHydroFrancis</a></td>
+<td><a href="../twng/">twng</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroFrancis/">GovHydroFrancis</a></td>
+<td><a href="../tx/">tx</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroPelton/">GovHydroPelton</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroPelton/">GovHydroPelton</a></td>
+<td><a href="../ts/">ts</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroPelton/">GovHydroPelton</a></td>
+<td><a href="../tv/">tv</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroPelton/">GovHydroPelton</a></td>
+<td><a href="../twnc/">twnc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroPelton/">GovHydroPelton</a></td>
+<td><a href="../twng/">twng</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroPelton/">GovHydroPelton</a></td>
+<td><a href="../tx/">tx</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroPID/">GovHydroPID</a></td>
+<td><a href="../td/">td</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroPID/">GovHydroPID</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroPID/">GovHydroPID</a></td>
+<td><a href="../tp/">tp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroPID/">GovHydroPID</a></td>
+<td><a href="../tt/">tt</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroPID/">GovHydroPID</a></td>
+<td><a href="../tturb/">tturb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroPID2/">GovHydroPID2</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroPID2/">GovHydroPID2</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroPID2/">GovHydroPID2</a></td>
+<td><a href="../treg/">treg</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroPID2/">GovHydroPID2</a></td>
+<td><a href="../tw/">tw</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroR/">GovHydroR</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroR/">GovHydroR</a></td>
+<td><a href="../td/">td</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroR/">GovHydroR</a></td>
+<td><a href="../tp/">tp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroR/">GovHydroR</a></td>
+<td><a href="../tt/">tt</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroR/">GovHydroR</a></td>
+<td><a href="../tw/">tw</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroWEH/">GovHydroWEH</a></td>
+<td><a href="../td/">td</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroWEH/">GovHydroWEH</a></td>
+<td><a href="../tdv/">tdv</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroWEH/">GovHydroWEH</a></td>
+<td><a href="../tg/">tg</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroWEH/">GovHydroWEH</a></td>
+<td><a href="../tp/">tp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroWEH/">GovHydroWEH</a></td>
+<td><a href="../tpe/">tpe</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroWEH/">GovHydroWEH</a></td>
+<td><a href="../tw/">tw</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroWPID/">GovHydroWPID</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroWPID/">GovHydroWPID</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroWPID/">GovHydroWPID</a></td>
+<td><a href="../treg/">treg</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovHydroWPID/">GovHydroWPID</a></td>
+<td><a href="../tw/">tw</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteam0/">GovSteam0</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteam1/">GovSteam1</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteam2/">GovSteam2</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamBB/">GovSteamBB</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamBB/">GovSteamBB</a></td>
+<td><a href="../td/">td</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamBB/">GovSteamBB</a></td>
+<td><a href="../tn/">tn</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamCC/">GovSteamCC</a></td>
+<td><a href="../t_hp/">t_hp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamCC/">GovSteamCC</a></td>
+<td><a href="../t_lp/">t_lp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamEU/">GovSteamEU</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamEU/">GovSteamEU</a></td>
+<td><a href="../tdp/">tdp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamEU/">GovSteamEU</a></td>
+<td><a href="../ten/">ten</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamEU/">GovSteamEU</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamEU/">GovSteamEU</a></td>
+<td><a href="../tfp/">tfp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamEU/">GovSteamEU</a></td>
+<td><a href="../thp/">thp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamEU/">GovSteamEU</a></td>
+<td><a href="../tip/">tip</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamEU/">GovSteamEU</a></td>
+<td><a href="../tlp/">tlp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamEU/">GovSteamEU</a></td>
+<td><a href="../tp/">tp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamEU/">GovSteamEU</a></td>
+<td><a href="../trh/">trh</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamEU/">GovSteamEU</a></td>
+<td><a href="../tvhp/">tvhp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamEU/">GovSteamEU</a></td>
+<td><a href="../tvip/">tvip</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamEU/">GovSteamEU</a></td>
+<td><a href="../tw/">tw</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV2/">GovSteamFV2</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV2/">GovSteamFV2</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV2/">GovSteamFV2</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV2/">GovSteamFV2</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV2/">GovSteamFV2</a></td>
+<td><a href="../tt/">tt</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV3/">GovSteamFV3</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV3/">GovSteamFV3</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV3/">GovSteamFV3</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV3/">GovSteamFV3</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV4/">GovSteamFV4</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV4/">GovSteamFV4</a></td>
+<td><a href="../tam/">tam</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV4/">GovSteamFV4</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV4/">GovSteamFV4</a></td>
+<td><a href="../tcm/">tcm</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV4/">GovSteamFV4</a></td>
+<td><a href="../tdc/">tdc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV4/">GovSteamFV4</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV4/">GovSteamFV4</a></td>
+<td><a href="../thp/">thp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV4/">GovSteamFV4</a></td>
+<td><a href="../tmp/">tmp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV4/">GovSteamFV4</a></td>
+<td><a href="../trh/">trh</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV4/">GovSteamFV4</a></td>
+<td><a href="../tv/">tv</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamFV4/">GovSteamFV4</a></td>
+<td><a href="../ty/">ty</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamSGO/">GovSteamSGO</a></td>
+<td><a href="../pmin/">pmin</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../GovSteamSGO/">GovSteamSGO</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../TurbLCFB1/">TurbLCFB1</a></td>
+<td><a href="../tpelec/">tpelec</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC1A/">ExcIEEEAC1A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC1A/">ExcIEEEAC1A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC1A/">ExcIEEEAC1A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC1A/">ExcIEEEAC1A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC1A/">ExcIEEEAC1A</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC2A/">ExcIEEEAC2A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC2A/">ExcIEEEAC2A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC2A/">ExcIEEEAC2A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC2A/">ExcIEEEAC2A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC2A/">ExcIEEEAC2A</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC3A/">ExcIEEEAC3A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC3A/">ExcIEEEAC3A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC3A/">ExcIEEEAC3A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC3A/">ExcIEEEAC3A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC3A/">ExcIEEEAC3A</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC4A/">ExcIEEEAC4A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC4A/">ExcIEEEAC4A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC4A/">ExcIEEEAC4A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC5A/">ExcIEEEAC5A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC5A/">ExcIEEEAC5A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC5A/">ExcIEEEAC5A</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC6A/">ExcIEEEAC6A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC6A/">ExcIEEEAC6A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC6A/">ExcIEEEAC6A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC6A/">ExcIEEEAC6A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC6A/">ExcIEEEAC6A</a></td>
+<td><a href="../th/">th</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC6A/">ExcIEEEAC6A</a></td>
+<td><a href="../tj/">tj</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC6A/">ExcIEEEAC6A</a></td>
+<td><a href="../tk/">tk</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC7B/">ExcIEEEAC7B</a></td>
+<td><a href="../tdr/">tdr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC7B/">ExcIEEEAC7B</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC7B/">ExcIEEEAC7B</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC8B/">ExcIEEEAC8B</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC8B/">ExcIEEEAC8B</a></td>
+<td><a href="../tdr/">tdr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEAC8B/">ExcIEEEAC8B</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEDC1A/">ExcIEEEDC1A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEDC1A/">ExcIEEEDC1A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEDC1A/">ExcIEEEDC1A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEDC1A/">ExcIEEEDC1A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEDC1A/">ExcIEEEDC1A</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEDC2A/">ExcIEEEDC2A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEDC2A/">ExcIEEEDC2A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEDC2A/">ExcIEEEDC2A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEDC2A/">ExcIEEEDC2A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEDC2A/">ExcIEEEDC2A</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEDC3A/">ExcIEEEDC3A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEDC3A/">ExcIEEEDC3A</a></td>
+<td><a href="../trh/">trh</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEDC4B/">ExcIEEEDC4B</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEDC4B/">ExcIEEEDC4B</a></td>
+<td><a href="../td/">td</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEDC4B/">ExcIEEEDC4B</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEDC4B/">ExcIEEEDC4B</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST1A/">ExcIEEEST1A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST1A/">ExcIEEEST1A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST1A/">ExcIEEEST1A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST1A/">ExcIEEEST1A</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST2A/">ExcIEEEST2A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST2A/">ExcIEEEST2A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST2A/">ExcIEEEST2A</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST3A/">ExcIEEEST3A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST3A/">ExcIEEEST3A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST3A/">ExcIEEEST3A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST3A/">ExcIEEEST3A</a></td>
+<td><a href="../tm/">tm</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST4B/">ExcIEEEST4B</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST5B/">ExcIEEEST5B</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST5B/">ExcIEEEST5B</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST5B/">ExcIEEEST5B</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST5B/">ExcIEEEST5B</a></td>
+<td><a href="../tob/">tob</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST5B/">ExcIEEEST5B</a></td>
+<td><a href="../toc/">toc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST5B/">ExcIEEEST5B</a></td>
+<td><a href="../tub/">tub</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST5B/">ExcIEEEST5B</a></td>
+<td><a href="../tuc/">tuc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST6B/">ExcIEEEST6B</a></td>
+<td><a href="../tg/">tg</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST7B/">ExcIEEEST7B</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST7B/">ExcIEEEST7B</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST7B/">ExcIEEEST7B</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST7B/">ExcIEEEST7B</a></td>
+<td><a href="../tg/">tg</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcIEEEST7B/">ExcIEEEST7B</a></td>
+<td><a href="../tia/">tia</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC1A/">ExcAC1A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC1A/">ExcAC1A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC1A/">ExcAC1A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC1A/">ExcAC1A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC1A/">ExcAC1A</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC2A/">ExcAC2A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC2A/">ExcAC2A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC2A/">ExcAC2A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC2A/">ExcAC2A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC2A/">ExcAC2A</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC3A/">ExcAC3A</a></td>
+<td><a href="../ka/">ka</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC3A/">ExcAC3A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC3A/">ExcAC3A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC3A/">ExcAC3A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC3A/">ExcAC3A</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC4A/">ExcAC4A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC4A/">ExcAC4A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC4A/">ExcAC4A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC5A/">ExcAC5A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC5A/">ExcAC5A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC5A/">ExcAC5A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC5A/">ExcAC5A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC5A/">ExcAC5A</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC6A/">ExcAC6A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC6A/">ExcAC6A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC6A/">ExcAC6A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC6A/">ExcAC6A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC6A/">ExcAC6A</a></td>
+<td><a href="../th/">th</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC6A/">ExcAC6A</a></td>
+<td><a href="../tj/">tj</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC6A/">ExcAC6A</a></td>
+<td><a href="../tk/">tk</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC8B/">ExcAC8B</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC8B/">ExcAC8B</a></td>
+<td><a href="../tdr/">tdr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAC8B/">ExcAC8B</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcANS/">ExcANS</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcANS/">ExcANS</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAVR1/">ExcAVR1</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAVR1/">ExcAVR1</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAVR1/">ExcAVR1</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAVR1/">ExcAVR1</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAVR2/">ExcAVR2</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAVR2/">ExcAVR2</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAVR2/">ExcAVR2</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAVR2/">ExcAVR2</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAVR3/">ExcAVR3</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAVR3/">ExcAVR3</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAVR4/">ExcAVR4</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAVR4/">ExcAVR4</a></td>
+<td><a href="../t_if/">t_if</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAVR4/">ExcAVR4</a></td>
+<td><a href="../tif/">tif</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAVR5/">ExcAVR5</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcAVR7/">ExcAVR7</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcBBC/">ExcBBC</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcCZ/">ExcCZ</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcCZ/">ExcCZ</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcCZ/">ExcCZ</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcDC1A/">ExcDC1A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcDC1A/">ExcDC1A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcDC1A/">ExcDC1A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcDC1A/">ExcDC1A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcDC1A/">ExcDC1A</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcDC2A/">ExcDC2A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcDC2A/">ExcDC2A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcDC2A/">ExcDC2A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcDC2A/">ExcDC2A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcDC2A/">ExcDC2A</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcDC3A/">ExcDC3A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcDC3A/">ExcDC3A</a></td>
+<td><a href="../trh/">trh</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcDC3A1/">ExcDC3A1</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcDC3A1/">ExcDC3A1</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcDC3A1/">ExcDC3A1</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcELIN1/">ExcELIN1</a></td>
+<td><a href="../tfi/">tfi</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcELIN1/">ExcELIN1</a></td>
+<td><a href="../tnu/">tnu</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcELIN1/">ExcELIN1</a></td>
+<td><a href="../ts/">ts</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcELIN1/">ExcELIN1</a></td>
+<td><a href="../tsw/">tsw</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcELIN2/">ExcELIN2</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcELIN2/">ExcELIN2</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcELIN2/">ExcELIN2</a></td>
+<td><a href="../ti/">ti</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcELIN2/">ExcELIN2</a></td>
+<td><a href="../tr/">tr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcHU/">ExcHU</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcHU/">ExcHU</a></td>
+<td><a href="../ti/">ti</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcHU/">ExcHU</a></td>
+<td><a href="../tr/">tr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcNI/">ExcNI</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcNI/">ExcNI</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcNI/">ExcNI</a></td>
+<td><a href="../tr/">tr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcOEX3T/">ExcOEX3T</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcOEX3T/">ExcOEX3T</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcOEX3T/">ExcOEX3T</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcPIC/">ExcPIC</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcPIC/">ExcPIC</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcPIC/">ExcPIC</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcREXS/">ExcREXS</a></td>
+<td><a href="../kf/">kf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcREXS/">ExcREXS</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcREXS/">ExcREXS</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcREXS/">ExcREXS</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcREXS/">ExcREXS</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcREXS/">ExcREXS</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcREXS/">ExcREXS</a></td>
+<td><a href="../tp/">tp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcRQB/">ExcRQB</a></td>
+<td><a href="../mesu/">mesu</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcRQB/">ExcRQB</a></td>
+<td><a href="../t_m/">t_m</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcRQB/">ExcRQB</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcRQB/">ExcRQB</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcRQB/">ExcRQB</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcSCRX/">ExcSCRX</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcSCRX/">ExcSCRX</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcSEXS/">ExcSEXS</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcSEXS/">ExcSEXS</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcSEXS/">ExcSEXS</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcSK/">ExcSK</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcSK/">ExcSK</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcSK/">ExcSK</a></td>
+<td><a href="../ti/">ti</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcSK/">ExcSK</a></td>
+<td><a href="../tp/">tp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcSK/">ExcSK</a></td>
+<td><a href="../tr/">tr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST1A/">ExcST1A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST1A/">ExcST1A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST1A/">ExcST1A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST1A/">ExcST1A</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST2A/">ExcST2A</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST2A/">ExcST2A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST2A/">ExcST2A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST2A/">ExcST2A</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST2A/">ExcST2A</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST3A/">ExcST3A</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST3A/">ExcST3A</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST3A/">ExcST3A</a></td>
+<td><a href="../tm/">tm</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST4B/">ExcST4B</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST6B/">ExcST6B</a></td>
+<td><a href="../tg/">tg</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST6B/">ExcST6B</a></td>
+<td><a href="../ts/">ts</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST6B/">ExcST6B</a></td>
+<td><a href="../tvd/">tvd</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST7B/">ExcST7B</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST7B/">ExcST7B</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST7B/">ExcST7B</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST7B/">ExcST7B</a></td>
+<td><a href="../tg/">tg</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST7B/">ExcST7B</a></td>
+<td><a href="../tia/">tia</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../ExcST7B/">ExcST7B</a></td>
+<td><a href="../ts/">ts</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../OverexcLimX1/">OverexcLimX1</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../OverexcLimX2/">OverexcLimX2</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../UnderexcLimIEEE1/">UnderexcLimIEEE1</a></td>
+<td><a href="../tu/">tu</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../UnderexcLimIEEE2/">UnderexcLimIEEE2</a></td>
+<td><a href="../tu/">tu</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../UnderexcLimIEEE2/">UnderexcLimIEEE2</a></td>
+<td><a href="../tul/">tul</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../UnderexcLimIEEE2/">UnderexcLimIEEE2</a></td>
+<td><a href="../tup/">tup</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../UnderexcLimIEEE2/">UnderexcLimIEEE2</a></td>
+<td><a href="../tuq/">tuq</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../UnderexcLimIEEE2/">UnderexcLimIEEE2</a></td>
+<td><a href="../tuv/">tuv</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../UnderexcLimX1/">UnderexcLimX1</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../UnderexcLimX1/">UnderexcLimX1</a></td>
+<td><a href="../tm/">tm</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../UnderexcLimX2/">UnderexcLimX2</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../UnderexcLimX2/">UnderexcLimX2</a></td>
+<td><a href="../tm/">tm</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssIEEE1A/">PssIEEE1A</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssIEEE2B/">PssIEEE2B</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssIEEE2B/">PssIEEE2B</a></td>
+<td><a href="../tw/">tw</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssIEEE3B/">PssIEEE3B</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssIEEE3B/">PssIEEE3B</a></td>
+<td><a href="../tw/">tw</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssIEEE4B/">PssIEEE4B</a></td>
+<td><a href="../th/">th</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssIEEE4B/">PssIEEE4B</a></td>
+<td><a href="../ti/">ti</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssIEEE4B/">PssIEEE4B</a></td>
+<td><a href="../tl/">tl</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Pss1/">Pss1</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Pss1/">Pss1</a></td>
+<td><a href="../tpe/">tpe</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Pss1A/">Pss1A</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Pss1A/">Pss1A</a></td>
+<td><a href="../tdelay/">tdelay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Pss2B/">Pss2B</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Pss2B/">Pss2B</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Pss2B/">Pss2B</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Pss2B/">Pss2B</a></td>
+<td><a href="../tw/">tw</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Pss2ST/">Pss2ST</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Pss5/">Pss5</a></td>
+<td><a href="../tl/">tl</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Pss5/">Pss5</a></td>
+<td><a href="../tpe/">tpe</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Pss5/">Pss5</a></td>
+<td><a href="../tw/">tw</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssELIN2/">PssELIN2</a></td>
+<td><a href="../ts/">ts</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssPTIST1/">PssPTIST1</a></td>
+<td><a href="../dtc/">dtc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssPTIST1/">PssPTIST1</a></td>
+<td><a href="../dtf/">dtf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssPTIST1/">PssPTIST1</a></td>
+<td><a href="../dtp/">dtp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssPTIST1/">PssPTIST1</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssPTIST1/">PssPTIST1</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssPTIST1/">PssPTIST1</a></td>
+<td><a href="../tp/">tp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssPTIST3/">PssPTIST3</a></td>
+<td><a href="../dtc/">dtc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssPTIST3/">PssPTIST3</a></td>
+<td><a href="../dtf/">dtf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssPTIST3/">PssPTIST3</a></td>
+<td><a href="../dtp/">dtp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssPTIST3/">PssPTIST3</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssPTIST3/">PssPTIST3</a></td>
+<td><a href="../tf/">tf</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssPTIST3/">PssPTIST3</a></td>
+<td><a href="../tp/">tp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssRQB/">PssRQB</a></td>
+<td><a href="../t_f/">t_f</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssRQB/">PssRQB</a></td>
+<td><a href="../t_m/">t_m</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssRQB/">PssRQB</a></td>
+<td><a href="../t_mom/">t_mom</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssRQB/">PssRQB</a></td>
+<td><a href="../tomd/">tomd</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssRQB/">PssRQB</a></td>
+<td><a href="../tomsl/">tomsl</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssSB4/">PssSB4</a></td>
+<td><a href="../ta/">ta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssSB4/">PssSB4</a></td>
+<td><a href="../tb/">tb</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssSB4/">PssSB4</a></td>
+<td><a href="../tc/">tc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssSB4/">PssSB4</a></td>
+<td><a href="../td/">td</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssSB4/">PssSB4</a></td>
+<td><a href="../te/">te</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssSB4/">PssSB4</a></td>
+<td><a href="../tt/">tt</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssSB4/">PssSB4</a></td>
+<td><a href="../tx/">tx</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssSH/">PssSH</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssSH/">PssSH</a></td>
+<td><a href="../td/">td</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssSK/">PssSK</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssSTAB2A/">PssSTAB2A</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PssWECC/">PssWECC</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../DiscExcContIEEEDEC1A/">DiscExcContIEEEDEC1A</a></td>
+<td><a href="../tan/">tan</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../DiscExcContIEEEDEC1A/">DiscExcContIEEEDEC1A</a></td>
+<td><a href="../td/">td</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../DiscExcContIEEEDEC1A/">DiscExcContIEEEDEC1A</a></td>
+<td><a href="../tl/">tl</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../DiscExcContIEEEDEC1A/">DiscExcContIEEEDEC1A</a></td>
+<td><a href="../tw/">tw</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../DiscExcContIEEEDEC2A/">DiscExcContIEEEDEC2A</a></td>
+<td><a href="../td/">td</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../DiscExcContIEEEDEC3A/">DiscExcContIEEEDEC3A</a></td>
+<td><a href="../tdr/">tdr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PFVArType1IEEEPFController/">PFVArType1IEEEPFController</a></td>
+<td><a href="../tpfc/">tpfc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PFVArType1IEEEVArController/">PFVArType1IEEEVArController</a></td>
+<td><a href="../tvarc/">tvarc</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../VAdjIEEE/">VAdjIEEE</a></td>
+<td><a href="../taoff/">taoff</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../VAdjIEEE/">VAdjIEEE</a></td>
+<td><a href="../taon/">taon</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../VCompIEEEType1/">VCompIEEEType1</a></td>
+<td><a href="../tr/">tr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindPlantFreqPcontrolIEC/">WindPlantFreqPcontrolIEC</a></td>
+<td><a href="../tpft/">tpft</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindPlantFreqPcontrolIEC/">WindPlantFreqPcontrolIEC</a></td>
+<td><a href="../tpfv/">tpfv</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindPlantFreqPcontrolIEC/">WindPlantFreqPcontrolIEC</a></td>
+<td><a href="../twpffiltp/">twpffiltp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindPlantFreqPcontrolIEC/">WindPlantFreqPcontrolIEC</a></td>
+<td><a href="../twppfiltp/">twppfiltp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindPlantReactiveControlIEC/">WindPlantReactiveControlIEC</a></td>
+<td><a href="../tuqfilt/">tuqfilt</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindPlantReactiveControlIEC/">WindPlantReactiveControlIEC</a></td>
+<td><a href="../twppfiltq/">twppfiltq</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindPlantReactiveControlIEC/">WindPlantReactiveControlIEC</a></td>
+<td><a href="../twpqfiltq/">twpqfiltq</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindPlantReactiveControlIEC/">WindPlantReactiveControlIEC</a></td>
+<td><a href="../twpufiltq/">twpufiltq</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindPlantReactiveControlIEC/">WindPlantReactiveControlIEC</a></td>
+<td><a href="../txft/">txft</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindPlantReactiveControlIEC/">WindPlantReactiveControlIEC</a></td>
+<td><a href="../txfv/">txfv</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindProtectionIEC/">WindProtectionIEC</a></td>
+<td><a href="../tfma/">tfma</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContQPQULimIEC/">WindContQPQULimIEC</a></td>
+<td><a href="../tpfiltql/">tpfiltql</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContQPQULimIEC/">WindContQPQULimIEC</a></td>
+<td><a href="../tufiltql/">tufiltql</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContCurrLimIEC/">WindContCurrLimIEC</a></td>
+<td><a href="../tufiltcl/">tufiltcl</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContQIEC/">WindContQIEC</a></td>
+<td><a href="../tpfiltq/">tpfiltq</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContQIEC/">WindContQIEC</a></td>
+<td><a href="../tpost/">tpost</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContQIEC/">WindContQIEC</a></td>
+<td><a href="../tqord/">tqord</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContQIEC/">WindContQIEC</a></td>
+<td><a href="../tufiltq/">tufiltq</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindRefFrameRotIEC/">WindRefFrameRotIEC</a></td>
+<td><a href="../tpll/">tpll</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindMechIEC/">WindMechIEC</a></td>
+<td><a href="../hgen/">hgen</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindMechIEC/">WindMechIEC</a></td>
+<td><a href="../hwtr/">hwtr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindGenType3aIEC/">WindGenType3aIEC</a></td>
+<td><a href="../tic/">tic</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContPitchAngleIEC/">WindContPitchAngleIEC</a></td>
+<td><a href="../ttheta/">ttheta</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContPType3IEC/">WindContPType3IEC</a></td>
+<td><a href="../tdvs/">tdvs</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContPType3IEC/">WindContPType3IEC</a></td>
+<td><a href="../tomegafiltp/">tomegafiltp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContPType3IEC/">WindContPType3IEC</a></td>
+<td><a href="../tomegaref/">tomegaref</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContPType3IEC/">WindContPType3IEC</a></td>
+<td><a href="../tpfiltp/">tpfiltp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContPType3IEC/">WindContPType3IEC</a></td>
+<td><a href="../tufiltp/">tufiltp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindGenType4IEC/">WindGenType4IEC</a></td>
+<td><a href="../tg/">tg</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContPType4aIEC/">WindContPType4aIEC</a></td>
+<td><a href="../tpordp_a/">tpordp_a</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContPType4aIEC/">WindContPType4aIEC</a></td>
+<td><a href="../tufiltp_a/">tufiltp_a</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContPType4bIEC/">WindContPType4bIEC</a></td>
+<td><a href="../tpaero/">tpaero</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContPType4bIEC/">WindContPType4bIEC</a></td>
+<td><a href="../tpordp_b/">tpordp_b</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContPType4bIEC/">WindContPType4bIEC</a></td>
+<td><a href="../tufiltp_b/">tufiltp_b</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContRotorRIEC/">WindContRotorRIEC</a></td>
+<td><a href="../tomegafiltrr/">tomegafiltrr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindContRotorRIEC/">WindContRotorRIEC</a></td>
+<td><a href="../tpfiltrr/">tpfiltrr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindPitchContPowerIEC/">WindPitchContPowerIEC</a></td>
+<td><a href="../t/">t</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindPitchContPowerIEC/">WindPitchContPowerIEC</a></td>
+<td><a href="../tr/">tr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindGenType3bIEC/">WindGenType3bIEC</a></td>
+<td><a href="../tg/">tg</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WindGenType3bIEC/">WindGenType3bIEC</a></td>
+<td><a href="../two/">two</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../LoadComposite/">LoadComposite</a></td>
+<td><a href="../h/">h</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../LoadGenericNonLinear/">LoadGenericNonLinear</a></td>
+<td><a href="../tp/">tp</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../LoadGenericNonLinear/">LoadGenericNonLinear</a></td>
+<td><a href="../tq/">tq</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../LoadMotor/">LoadMotor</a></td>
+<td><a href="../h/">h</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../LoadMotor/">LoadMotor</a></td>
+<td><a href="../tbkr/">tbkr</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../LoadMotor/">LoadMotor</a></td>
+<td><a href="../tpo/">tpo</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../LoadMotor/">LoadMotor</a></td>
+<td><a href="../tppo/">tppo</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../LoadMotor/">LoadMotor</a></td>
+<td><a href="../tv/">tv</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../Delay/">Delay</a></td>
+<td><a href="../tm/">tm</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SynchronousMachineUserDefined/">SynchronousMachineUserDefined</a></td>
+<td><a href="../inertia/">inertia</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../AsynchronousMachineUserDefined/">AsynchronousMachineUserDefined</a></td>
+<td><a href="../inertia/">inertia</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../BreakerInfo/">BreakerInfo</a></td>
+<td><a href="../rated_interrupting_time/">rated_interrupting_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../OldSwitchInfo/">OldSwitchInfo</a></td>
+<td><a href="../rated_interrupting_time/">rated_interrupting_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SwitchInfo/">SwitchInfo</a></td>
+<td><a href="../rated_interrupting_time/">rated_interrupting_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../RecloserInfo/">RecloserInfo</a></td>
+<td><a href="../rated_interrupting_time/">rated_interrupting_time</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../SVC/">SVC</a></td>
+<td><a href="../a_vrdelay/">a_vrdelay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PumpingShutDownCostSchedule/">PumpingShutDownCostSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PumpingLevelSchedule/">PumpingLevelSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../HourlyPreDispatchSchedule/">HourlyPreDispatchSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../PumpingCostSchedule/">PumpingCostSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../OpenTieSchedule/">OpenTieSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../MktShuntCompensator/">MktShuntCompensator</a></td>
+<td><a href="../a_vrdelay/">a_vrdelay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../MktTapChanger/">MktTapChanger</a></td>
+<td><a href="../initial_delay/">initial_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../MktTapChanger/">MktTapChanger</a></td>
+<td><a href="../subsequent_delay/">subsequent_delay</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+<tr>
+<td><a href="../WheelingReferenceSchedule/">WheelingReferenceSchedule</a></td>
+<td><a href="../time_step/">time_step</a></td>
+<td>range</td>
+<td><a href="./">Seconds</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="annotations">Annotations</h3>
+<table>
+<thead>
+<tr>
+<th>property</th>
+<th>value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>represents_cim_data_type</td>
+<td>True</td>
+</tr>
+</tbody>
+</table>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://cim.ucaiug.io/ns#TC57CIM</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>cim:Seconds</td>
+</tr>
+<tr>
+<td>native</td>
+<td>cim:Seconds</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
+<!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
+<h3 id="direct">Direct</h3>
+<details>
+<div class="highlight"><pre><span></span><code><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Seconds</span>
+<span class="nt">annotations</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">represents_cim_data_type</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">tag</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">represents_cim_data_type</span>
+<span class="w">    </span><span class="nt">value</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"Time,</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">seconds.\r\n"</span>
+<span class="nt">from_schema</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://cim.ucaiug.io/ns#TC57CIM</span>
+<span class="nt">rank</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1000</span>
+<span class="nt">attributes</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">multiplier</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">multiplier</span>
+<span class="w">    </span><span class="nt">from_schema</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://cim.ucaiug.io/ns#TC57CIM</span>
+<span class="w">    </span><span class="nt">slot_uri</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Seconds.multiplier</span>
+<span class="w">    </span><span class="nt">multivalued</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="w">    </span><span class="nt">domain_of</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VoltagePerReactivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Length</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ConductancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VolumeFlowRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Volume</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Voltage</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Temperature</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Admittance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Impedance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerVolume</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SusceptancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Money</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Minutes</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">FloatQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerEnergyUnit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PerCent</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">IntegerQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ApparentPower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">WaterLevel</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Displacement</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Damping</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Seconds</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ResistancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Inductance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AngleDegrees</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Speed</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Capacitance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PU</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Pressure</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">KiloActivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReactivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">StringQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerChangeRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Hours</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Conductance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RotationSpeed</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CurrentFlow</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Frequency</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AngleRadians</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReactancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Resistance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Reactance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Susceptance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RealEnergy</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Classification</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HeatRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Emission</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerHeatUnit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerPerFrequency</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">InductancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CapacitancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DecimalQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Area</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerPerCurrentFlow</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Mass</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AccountingUnit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReadingType</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MagneticField</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ParticulateDensity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Bearing</span>
+<span class="w">    </span><span class="nt">range</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">UnitMultiplier</span>
+<span class="w">    </span><span class="nt">required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="w">  </span><span class="nt">unit</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">unit</span>
+<span class="w">    </span><span class="nt">from_schema</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://cim.ucaiug.io/ns#TC57CIM</span>
+<span class="w">    </span><span class="nt">slot_uri</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Seconds.unit</span>
+<span class="w">    </span><span class="nt">multivalued</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="w">    </span><span class="nt">domain_of</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VoltagePerReactivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Length</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ConductancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VolumeFlowRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Volume</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Voltage</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Temperature</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Admittance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Impedance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerVolume</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SusceptancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Money</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Minutes</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">FloatQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerEnergyUnit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PerCent</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">IntegerQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ApparentPower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">WaterLevel</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Displacement</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Damping</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Seconds</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ResistancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Inductance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AngleDegrees</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Speed</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Capacitance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PU</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Pressure</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">KiloActivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReactivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">StringQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerChangeRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Hours</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Conductance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RotationSpeed</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CurrentFlow</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Frequency</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AngleRadians</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReactancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Resistance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Reactance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Susceptance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RealEnergy</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Classification</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HeatRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Emission</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerHeatUnit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerPerFrequency</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">InductancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CapacitancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DecimalQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Area</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerPerCurrentFlow</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Mass</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReadingType</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">TimeSeries</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AceTariffType</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MagneticField</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ParticulateDensity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Bearing</span>
+<span class="w">    </span><span class="nt">range</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">UnitSymbol</span>
+<span class="w">    </span><span class="nt">required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="w">  </span><span class="nt">value</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">value</span>
+<span class="w">    </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Time, in seconds</span>
+<span class="w">    </span><span class="nt">from_schema</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://cim.ucaiug.io/ns#TC57CIM</span>
+<span class="w">    </span><span class="nt">slot_uri</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Seconds.value</span>
+<span class="w">    </span><span class="nt">multivalued</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="w">    </span><span class="nt">domain_of</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VoltagePerReactivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Length</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ConductancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VolumeFlowRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Volume</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Voltage</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Temperature</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Admittance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Impedance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerVolume</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SusceptancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Money</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Minutes</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">FloatQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerEnergyUnit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PerCent</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">IntegerQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ApparentPower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">WaterLevel</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Displacement</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Damping</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Seconds</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ResistancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Inductance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AngleDegrees</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Speed</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Capacitance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PU</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Pressure</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">KiloActivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReactivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">StringQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerChangeRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Hours</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Conductance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RotationSpeed</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CurrentFlow</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Frequency</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AngleRadians</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReactancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Resistance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Reactance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Susceptance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RealEnergy</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Classification</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HeatRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Emission</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerHeatUnit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerPerFrequency</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">InductancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CapacitancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DecimalQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Area</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerPerCurrentFlow</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Mass</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Status</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">UserAttribute</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AccountingUnit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BaseReading</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">EndDeviceEventDetail</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MeterMultiplier</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RegularTimePoint</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AnalogValue</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AnalogLimit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CommodityPrice</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ChargeProfileData</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">StringMeasurementValue</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Command</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DiscreteValue</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ValueToAlias</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ServiceMultiplier</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AnalyticScore</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">IrregularTimePoint</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerLimit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ApparentPowerLimit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CurrentLimit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VoltageLimit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AccumulatorValue</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AccumulatorLimit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SetPoint</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ScheduledActivePowerLimitValue</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ScheduledApparentPowerLimitValue</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ScheduledCurrentLimitValue</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ScheduledVoltageLimitValue</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MagneticField</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ParticulateDensity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Bearing</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PumpingShutDownCostSchedule</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PumpingLevelSchedule</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HourlyPreDispatchSchedule</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PumpingCostSchedule</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">OpenTieSchedule</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">WheelingReferenceSchedule</span>
+<span class="w">    </span><span class="nt">range</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">float</span>
+<span class="w">    </span><span class="nt">required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="nt">class_uri</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Seconds</span>
+</code></pre></div>
+</details>
+<h3 id="induced">Induced</h3>
+<details>
+<div class="highlight"><pre><span></span><code><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Seconds</span>
+<span class="nt">annotations</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">represents_cim_data_type</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">tag</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">represents_cim_data_type</span>
+<span class="w">    </span><span class="nt">value</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">"Time,</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">seconds.\r\n"</span>
+<span class="nt">from_schema</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://cim.ucaiug.io/ns#TC57CIM</span>
+<span class="nt">rank</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1000</span>
+<span class="nt">attributes</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">multiplier</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">multiplier</span>
+<span class="w">    </span><span class="nt">from_schema</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://cim.ucaiug.io/ns#TC57CIM</span>
+<span class="w">    </span><span class="nt">slot_uri</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Seconds.multiplier</span>
+<span class="w">    </span><span class="nt">multivalued</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="w">    </span><span class="nt">alias</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">multiplier</span>
+<span class="w">    </span><span class="nt">owner</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Seconds</span>
+<span class="w">    </span><span class="nt">domain_of</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VoltagePerReactivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Length</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ConductancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VolumeFlowRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Volume</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Voltage</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Temperature</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Admittance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Impedance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerVolume</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SusceptancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Money</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Minutes</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">FloatQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerEnergyUnit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PerCent</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">IntegerQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ApparentPower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">WaterLevel</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Displacement</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Damping</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Seconds</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ResistancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Inductance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AngleDegrees</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Speed</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Capacitance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PU</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Pressure</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">KiloActivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReactivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">StringQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerChangeRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Hours</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Conductance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RotationSpeed</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CurrentFlow</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Frequency</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AngleRadians</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReactancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Resistance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Reactance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Susceptance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RealEnergy</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Classification</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HeatRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Emission</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerHeatUnit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerPerFrequency</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">InductancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CapacitancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DecimalQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Area</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerPerCurrentFlow</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Mass</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AccountingUnit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReadingType</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MagneticField</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ParticulateDensity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Bearing</span>
+<span class="w">    </span><span class="nt">range</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">UnitMultiplier</span>
+<span class="w">    </span><span class="nt">required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="w">  </span><span class="nt">unit</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">unit</span>
+<span class="w">    </span><span class="nt">from_schema</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://cim.ucaiug.io/ns#TC57CIM</span>
+<span class="w">    </span><span class="nt">slot_uri</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Seconds.unit</span>
+<span class="w">    </span><span class="nt">multivalued</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="w">    </span><span class="nt">alias</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">unit</span>
+<span class="w">    </span><span class="nt">owner</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Seconds</span>
+<span class="w">    </span><span class="nt">domain_of</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VoltagePerReactivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Length</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ConductancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VolumeFlowRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Volume</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Voltage</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Temperature</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Admittance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Impedance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerVolume</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SusceptancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Money</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Minutes</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">FloatQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerEnergyUnit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PerCent</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">IntegerQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ApparentPower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">WaterLevel</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Displacement</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Damping</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Seconds</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ResistancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Inductance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AngleDegrees</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Speed</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Capacitance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PU</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Pressure</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">KiloActivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReactivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">StringQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerChangeRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Hours</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Conductance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RotationSpeed</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CurrentFlow</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Frequency</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AngleRadians</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReactancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Resistance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Reactance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Susceptance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RealEnergy</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Classification</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HeatRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Emission</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerHeatUnit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerPerFrequency</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">InductancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CapacitancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DecimalQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Area</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerPerCurrentFlow</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Mass</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReadingType</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">TimeSeries</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AceTariffType</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MagneticField</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ParticulateDensity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Bearing</span>
+<span class="w">    </span><span class="nt">range</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">UnitSymbol</span>
+<span class="w">    </span><span class="nt">required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="w">  </span><span class="nt">value</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">value</span>
+<span class="w">    </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Time, in seconds</span>
+<span class="w">    </span><span class="nt">from_schema</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://cim.ucaiug.io/ns#TC57CIM</span>
+<span class="w">    </span><span class="nt">slot_uri</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Seconds.value</span>
+<span class="w">    </span><span class="nt">multivalued</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="w">    </span><span class="nt">alias</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">value</span>
+<span class="w">    </span><span class="nt">owner</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Seconds</span>
+<span class="w">    </span><span class="nt">domain_of</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VoltagePerReactivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Length</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ConductancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VolumeFlowRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Volume</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Voltage</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Temperature</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Admittance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Impedance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerVolume</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SusceptancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Money</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Minutes</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">FloatQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerEnergyUnit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PerCent</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">IntegerQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ApparentPower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">WaterLevel</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Displacement</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Damping</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Seconds</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ResistancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Inductance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AngleDegrees</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Speed</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Capacitance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PU</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Pressure</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">KiloActivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReactivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">StringQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerChangeRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Hours</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Conductance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RotationSpeed</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CurrentFlow</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Frequency</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AngleRadians</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePower</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReactancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Resistance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Reactance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Susceptance</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RealEnergy</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Classification</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HeatRate</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Emission</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerHeatUnit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerPerFrequency</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">InductancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CapacitancePerLength</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DecimalQuantity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Area</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerPerCurrentFlow</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Mass</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Status</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">UserAttribute</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AccountingUnit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BaseReading</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">EndDeviceEventDetail</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MeterMultiplier</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RegularTimePoint</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AnalogValue</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AnalogLimit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CommodityPrice</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ChargeProfileData</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">StringMeasurementValue</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Command</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DiscreteValue</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ValueToAlias</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ServiceMultiplier</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AnalyticScore</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">IrregularTimePoint</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerLimit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ApparentPowerLimit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CurrentLimit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VoltageLimit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AccumulatorValue</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AccumulatorLimit</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SetPoint</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ScheduledActivePowerLimitValue</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ScheduledApparentPowerLimitValue</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ScheduledCurrentLimitValue</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ScheduledVoltageLimitValue</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MagneticField</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ParticulateDensity</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Bearing</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PumpingShutDownCostSchedule</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PumpingLevelSchedule</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HourlyPreDispatchSchedule</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PumpingCostSchedule</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">OpenTieSchedule</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">WheelingReferenceSchedule</span>
+<span class="w">    </span><span class="nt">range</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">float</span>
+<span class="w">    </span><span class="nt">required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="nt">class_uri</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Seconds</span>
+</code></pre></div>
+</details>
+</article>
+</div>
+<script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+</div>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": ["content.tabs.link"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+</body>
+</html>

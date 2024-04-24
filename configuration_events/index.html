@@ -1,0 +1,1466 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ritger-alliander.github.io/im-cim-v100/configuration_events/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Slot: configuration_events - im-cim-v100</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4cae4f">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="deep-orange">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#slot-configuration_events" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="im-cim-v100" class="md-header__button md-logo" aria-label="im-cim-v100" data-md-component="logo">
+      
+  <img src="../assets/alliander_logo_wit.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            im-cim-v100
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Slot: configuration_events
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ritger-alliander/im-cim-v100" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="im-cim-v100" class="md-nav__button md-logo" aria-label="im-cim-v100" data-md-component="logo">
+      
+  <img src="../assets/alliander_logo_wit.png" alt="logo">
+
+    </a>
+    im-cim-v100
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ritger-alliander/im-cim-v100" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#applicable-classes" class="md-nav__link">
+    Applicable Classes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#identifier-and-mapping-information" class="md-nav__link">
+    Identifier and Mapping Information
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linkml-source" class="md-nav__link">
+    LinkML Source
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <a href="https://github.com/ritger-alliander/im-cim-v100/edit/master/docs/configuration_events.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<h1 id="slot-configuration_events">Slot: configuration_events</h1>
+<p>URI: <a href="https://cim.ucaiug.io/ns#configuration_events">cim:configuration_events</a></p>
+<!-- no inheritance hierarchy -->
+
+<h2 id="applicable-classes">Applicable Classes</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Modifies Slot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../MeterReadSchedule/">MeterReadSchedule</a></td>
+<td></td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpChartOfAccounts/">ErpChartOfAccounts</a></td>
+<td>Accounting structure of a business</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MPMClearing/">MPMClearing</a></td>
+<td>Model of results of Market Power tests, and possible mitigation</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Author/">Author</a></td>
+<td>Person who created document or activity record</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../TransactionBidClearing/">TransactionBidClearing</a></td>
+<td>Contains the intervals relavent for the associated TransactionBidResults</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AuxiliaryAccount/">AuxiliaryAccount</a></td>
+<td>Variable and dynamic part of auxiliary agreement, generally representing the ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AssetContainer/">AssetContainer</a></td>
+<td>Asset that is aggregation of other assets such as conductors, transformers, s...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Approver/">Approver</a></td>
+<td>Person who accepted/signed or rejected the document</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../PropertyOrganisationRole/">PropertyOrganisationRole</a></td>
+<td>Role an organisation plays with respect to property (for example, the organis...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Joint/">Joint</a></td>
+<td>Joint connects two or more cables</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../InstructionClearingDOP/">InstructionClearingDOP</a></td>
+<td>Model of market clearing, related to Dispatch Operating Point</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../WorkCostDetail/">WorkCostDetail</a></td>
+<td>A collection of all of the individual cost items collected from multiple sour...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../OperationsSafetySupervisor/">OperationsSafetySupervisor</a></td>
+<td>Operator with responsibility that the work in high voltage installation is ex...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Location/">Location</a></td>
+<td>The place, scene, or point of something where someone or something has been, ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ExPostMarketRegion/">ExPostMarketRegion</a></td>
+<td>Model of ex-post calculation of cleared MW on a regional basis</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpLedgerBudget/">ErpLedgerBudget</a></td>
+<td>Information for utility Ledger Budgets</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../PersonRole/">PersonRole</a></td>
+<td></td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../DocumentPersonRole/">DocumentPersonRole</a></td>
+<td>Person role with respect to documents</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../OperatingMechanism/">OperatingMechanism</a></td>
+<td>Breaker mechanism</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../CommitmentClearing/">CommitmentClearing</a></td>
+<td>Models results of market clearing which call for commitment of units</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../CompatibleUnit/">CompatibleUnit</a></td>
+<td>A pre-planned job model containing labor, material, and accounting requiremen...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../CrewMember/">CrewMember</a></td>
+<td>Member of a crew</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpTimeSheet/">ErpTimeSheet</a></td>
+<td>Time sheet for employees and contractors</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../DocumentOrganisationRole/">DocumentOrganisationRole</a></td>
+<td>Role an organisation plays with respect to documents</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../InspectionDataSet/">InspectionDataSet</a></td>
+<td>Documents the result of one inspection, for a given attribute of an asset</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AssetTestLab/">AssetTestLab</a></td>
+<td>Test lab that performs various types of testing related to assets</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ServiceGuarantee/">ServiceGuarantee</a></td>
+<td>A service guarantee, often imposed by a regulator, defines conditions that, i...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MarketDocument/">MarketDocument</a></td>
+<td>Electronic document containing the information necessary to satisfy a given b...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MarketRole/">MarketRole</a></td>
+<td>The external intended behavior played by a party within the electricity marke...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Operator/">Operator</a></td>
+<td>Control room operator</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../CustomerAccount/">CustomerAccount</a></td>
+<td>Assignment of a group of products and services purchased by the customer thro...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../OperationalTag/">OperationalTag</a></td>
+<td>Operational tag placed on a power system resource or asset in the context of ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpSalesOrder/">ErpSalesOrder</a></td>
+<td>General purpose Sales Order is used for utility service orders, etc</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ExternalCustomerAgreement/">ExternalCustomerAgreement</a></td>
+<td>A type of customer agreement involving an external agency</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AssetGroup/">AssetGroup</a></td>
+<td>A grouping of assets created for a purpose such as fleet analytics, inventory...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpPurchaseOrder/">ErpPurchaseOrder</a></td>
+<td>A document that communicates an order to purchase goods from a buyer to a sup...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../UnplannedOutage/">UnplannedOutage</a></td>
+<td>Document describing the consequence of an unplanned outage in a part of the e...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpPayable/">ErpPayable</a></td>
+<td>A transaction that represents an invoice from a supplier</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ExPostResource/">ExPostResource</a></td>
+<td>Model of ex-post pricing of resources</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../InstructionClearing/">InstructionClearing</a></td>
+<td>Model of market clearing, relating to commitment instructions</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../NonStandardItem/">NonStandardItem</a></td>
+<td>This document provides information for non-standard items like customer contr...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../TransactionBid/">TransactionBid</a></td>
+<td>Bilateral or scheduled transactions for energy and ancillary services conside...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../OrganisationRole/">OrganisationRole</a></td>
+<td>Identifies a way in which an organisation may participate in the utility ente...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../InstructionClearingDOT/">InstructionClearingDOT</a></td>
+<td>Model of market clearing, related to Dispatch Operating Target (model of anti...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../BaseWork/">BaseWork</a></td>
+<td>Common representation for work and work tasks</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Tower/">Tower</a></td>
+<td>Tower asset</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpReceivable/">ErpReceivable</a></td>
+<td>Transaction representing an invoice, credit memo or debit memo to a customer</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../PersonOrganisationRole/">PersonOrganisationRole</a></td>
+<td>Role an organisation plays with respect to persons</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Zone/">Zone</a></td>
+<td>Area divided off from other areas</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Tariff/">Tariff</a></td>
+<td>Document, approved by the responsible regulatory agency, listing the terms an...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpDocument/">ErpDocument</a></td>
+<td>Shadow class for Document, to isolate subclassing from this package</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Work/">Work</a></td>
+<td>Document used to request, initiate, track and record work</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../OrgOrgRole/">OrgOrgRole</a></td>
+<td>Roles played between Organisations and other Organisations</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../WorkTimeSchedule/">WorkTimeSchedule</a></td>
+<td>Time schedule specific to work</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../StandardIndustryCode/">StandardIndustryCode</a></td>
+<td>The Standard Industrial Classification (SIC) are the codes that identify the ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../StructureSupport/">StructureSupport</a></td>
+<td>Support for structure assets</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../FieldSafetySupervisor/">FieldSafetySupervisor</a></td>
+<td>Crew member on work site responsible for all local safety measures for the wo...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../TestDataSet/">TestDataSet</a></td>
+<td>Test results, usually obtained by a lab or other independent organisation</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ResourceClearing/">ResourceClearing</a></td>
+<td>Model of market results, including cleaing result of resources</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MaintenanceWorkTask/">MaintenanceWorkTask</a></td>
+<td>Maintenance work task</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Pole/">Pole</a></td>
+<td>Pole asset</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ProcedureDataSet/">ProcedureDataSet</a></td>
+<td>A data set recorded each time a procedure is executed</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../RepairWorkTask/">RepairWorkTask</a></td>
+<td>Work task for asset repair</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MarketCaseClearing/">MarketCaseClearing</a></td>
+<td>Market case clearing results are posted for a given settlement period</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ExPostPricing/">ExPostPricing</a></td>
+<td>Model of ex-post pricing of nodes</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../LabTestDataSet/">LabTestDataSet</a></td>
+<td>Results of testing done by a lab</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../CRROrgRole/">CRROrgRole</a></td>
+<td>Identifies a way in which an organisation may participate with a defined Cong...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Incident/">Incident</a></td>
+<td>Description of a problem in the field that may be reported in a trouble ticke...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../OldWorkTask/">OldWorkTask</a></td>
+<td>A set of tasks is required to implement a design</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpInvoice/">ErpInvoice</a></td>
+<td>A roll up of invoice line items</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MitigatedBidClearing/">MitigatedBidClearing</a></td>
+<td>Model of market power mitigation through reference or mitigated bids</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ComModule/">ComModule</a></td>
+<td>An asset having communications capabilities that can be paired with a meter o...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../BillDeterminant/">BillDeterminant</a></td>
+<td>Models various charges to support billing and settlement</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Skill/">Skill</a></td>
+<td>Proficiency level of a craft, which is required to operate or maintain a part...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ServiceSupplier/">ServiceSupplier</a></td>
+<td>Organisation that provides services to customers</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../OneCallRequest/">OneCallRequest</a></td>
+<td>A request for other utilities to mark their underground facilities prior to c...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../CongestionRevenueRight/">CongestionRevenueRight</a></td>
+<td>Congestion Revenue Rights (CRR) class that is inherited from a Document class</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Vehicle/">Vehicle</a></td>
+<td>Vehicle asset</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AccessPermit/">AccessPermit</a></td>
+<td>A permit is sometimes needed to provide legal access to land or equipment</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AssetOwner/">AssetOwner</a></td>
+<td>Owner of the asset</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../FACTSDevice/">FACTSDevice</a></td>
+<td>FACTS device asset</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Manufacturer/">Manufacturer</a></td>
+<td>Organisation that manufactures asset products</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Document/">Document</a></td>
+<td>Parent class for different groupings of information collected and managed as ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpQuote/">ErpQuote</a></td>
+<td>Document describing the prices of goods or services provided by a supplier</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../FTR/">FTR</a></td>
+<td>Financial Transmission Rights (FTR) regarding transmission capacity at a flow...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Cabinet/">Cabinet</a></td>
+<td>Enclosure that offers protection to the equipment it contains and/or safety t...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../TroubleReporter/">TroubleReporter</a></td>
+<td>Type of Person reporting the Trouble - Customer, First Responder, Passer-by, ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../OutagePlan/">OutagePlan</a></td>
+<td>Document containing the definition of planned outages of equipment and/or usa...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AuxiliaryAgreement/">AuxiliaryAgreement</a></td>
+<td>An ad-hoc auxiliary account agreement associated with a customer agreement, n...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AreaLoadBid/">AreaLoadBid</a></td>
+<td>AreaLoadBid is not submitted by a market participant into the Markets</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../TypeMaterial/">TypeMaterial</a></td>
+<td>Documentation for a generic material item that may be used for design, work a...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Issuer/">Issuer</a></td>
+<td>Person who issued the document and is responsible for its content</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../WorkTask/">WorkTask</a></td>
+<td>A task within a set of work</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AssetUser/">AssetUser</a></td>
+<td>Organisation that is a user of the asset</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Analytic/">Analytic</a></td>
+<td>An algorithm or calculation for making an assessment about an asset or asset ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../RMROperatorInput/">RMROperatorInput</a></td>
+<td>RMR Operator's entry of the RMR requirement per market interval</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../InterrupterUnit/">InterrupterUnit</a></td>
+<td>Breaker interrupter</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MaintenanceLocation/">MaintenanceLocation</a></td>
+<td>Location where to perform maintenance work</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpReceiveDelivery/">ErpReceiveDelivery</a></td>
+<td>Transaction for an Organisation receiving goods or services that may be used ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpPayment/">ErpPayment</a></td>
+<td>Payment infromation and status for any individual line item of an ErpInvoice ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../EndDevice/">EndDevice</a></td>
+<td>Asset container that performs one or more end device functions</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ServiceOrder/">ServiceOrder</a></td>
+<td></td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../WorkBillingInfo/">WorkBillingInfo</a></td>
+<td>Billing information for work performed for the customer</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Design/">Design</a></td>
+<td>A design for consideration by customers, potential customers, or internal wor...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Outage/">Outage</a></td>
+<td>Document describing details of an active or planned outage in a part of the e...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Project/">Project</a></td>
+<td>A collection of related work</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Specification/">Specification</a></td>
+<td>Specification can be used for various purposes relative to an asset, a logica...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MarketFactors/">MarketFactors</a></td>
+<td>Aggregation of market information relative for a specific time interval</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../SafetyDocument/">SafetyDocument</a></td>
+<td>Document restricting or authorising works on electrical equipment (for exampl...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../EnergyProduct/">EnergyProduct</a></td>
+<td>An EnergyProduct is offered commercially as a ContractOrTariff</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../InterTieClearing/">InterTieClearing</a></td>
+<td>Model of market clearing related to results at the inter-ties</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AncillaryServiceClearing/">AncillaryServiceClearing</a></td>
+<td>Model of results of market clearing with respect to  Ancillary Service produc...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../CustomerBillingInfo/">CustomerBillingInfo</a></td>
+<td>The creation of the monthly customer billing statements is the method employe...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Bushing/">Bushing</a></td>
+<td>Bushing asset</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MarketStatement/">MarketStatement</a></td>
+<td>A statement is a roll up of statement line items</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MerchantAgreement/">MerchantAgreement</a></td>
+<td>A formal controlling contractual agreement between supplier and merchant, in ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../InterTieBid/">InterTieBid</a></td>
+<td>This class represents the inter tie bid</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../LoadBid/">LoadBid</a></td>
+<td>Offer to supply energy/ancillary services from a load resource (participating...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../CustomerAgreement/">CustomerAgreement</a></td>
+<td>Agreement between the customer and the service supplier to pay for service at...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MaintenanceOrder/">MaintenanceOrder</a></td>
+<td></td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ResourceBid/">ResourceBid</a></td>
+<td>Energy bid for generation, load, or virtual type for the whole of the market-...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpBOM/">ErpBOM</a></td>
+<td>Information that generally describes the Bill of Material Structure and its c...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../BusinessPlan/">BusinessPlan</a></td>
+<td>A BusinessPlan is an organized sequence of predetermined actions required to ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpProjectAccounting/">ErpProjectAccounting</a></td>
+<td>Utility Project Accounting information, used by ERP applications to enable al...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../UndergroundStructure/">UndergroundStructure</a></td>
+<td>Underground structure</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../PnodeClearing/">PnodeClearing</a></td>
+<td>Pricing node clearing results posted for a given settlement period</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../WorkRequest/">WorkRequest</a></td>
+<td>Document used to plan or initiate work</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../LocationGrant/">LocationGrant</a></td>
+<td>A grant provides a right, as defined by type, for a parcel of land</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../OperationalRestriction/">OperationalRestriction</a></td>
+<td>A document that can be associated with equipment to describe any sort of rest...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AssetTestSampleTaker/">AssetTestSampleTaker</a></td>
+<td>Identity of person/organization that took sample</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../OutageOrder/">OutageOrder</a></td>
+<td>Transmits an outage plan to a crew in order for the planned outage to be exec...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Settlement/">Settlement</a></td>
+<td>Specifies a settlement run</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ServiceLocation/">ServiceLocation</a></td>
+<td>A real estate location, commonly referred to as premises</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../DiagnosisDataSet/">DiagnosisDataSet</a></td>
+<td>The result of a problem (typically an asset failure) diagnosis</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Editor/">Editor</a></td>
+<td>Person who modified the document</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ServiceRequest/">ServiceRequest</a></td>
+<td></td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MeterWorkTask/">MeterWorkTask</a></td>
+<td>Work task involving meters</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../SecurityConstraintSum/">SecurityConstraintSum</a></td>
+<td>Typically provided by RTO systems, constraints identified in both base case a...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AssetModelCatalogueItem/">AssetModelCatalogueItem</a></td>
+<td>Provides pricing and other relevant information about a specific manufacturer...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../SwitchingPlanRequest/">SwitchingPlanRequest</a></td>
+<td>A document used to request that a switching plan be created for a particular ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../EnvironmentalDataProvider/">EnvironmentalDataProvider</a></td>
+<td>Entity providing environmental data</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AssetOrganisationRole/">AssetOrganisationRole</a></td>
+<td>Role an organisation plays with respect to asset</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpRequisition/">ErpRequisition</a></td>
+<td>General information that applies to a utility requisition that is a request f...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../TroubleTicket/">TroubleTicket</a></td>
+<td></td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ComMedia/">ComMedia</a></td>
+<td>Communication media such as fibre optic cable, power-line, telephone, etc</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../WorkDocument/">WorkDocument</a></td>
+<td>Shadow class for Document, to isolate subclassing from this package</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MarketAgreement/">MarketAgreement</a></td>
+<td>An identification  or eventually the contents of an agreement between two or ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../IntermittentResourceEligibility/">IntermittentResourceEligibility</a></td>
+<td>Indicates whether unit is eligible for treatment as a intermittent variable r...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Agreement/">Agreement</a></td>
+<td>Formal agreement between two parties defining the terms and conditions for a ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../PassThroughBill/">PassThroughBill</a></td>
+<td>Pass Through Bill is used for:</td>
+<td></td>
+</tr>
+<tr>
+<td>no</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="../MaintenanceDataSet/">MaintenanceDataSet</a></td>
+<td>The result of a maintenance activity, a type of Procedure, for a given attrib...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../OpenAccessProduct/">OpenAccessProduct</a></td>
+<td>Contracts for services offered commercially</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../SecurityConstraintsClearing/">SecurityConstraintsClearing</a></td>
+<td>Binding security constrained clearing results posted for a given settlement p...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Bid/">Bid</a></td>
+<td>Represents both bids to purchase and offers to sell energy or ancillary servi...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpLedger/">ErpLedger</a></td>
+<td>In accounting transactions, a ledger is a book containing accounts to which d...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../WorkAsset/">WorkAsset</a></td>
+<td>Asset used to perform work</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ChargeType/">ChargeType</a></td>
+<td>Charge Type is the basic level configuration for settlement to process specif...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MarketEvaluationPoint/">MarketEvaluationPoint</a></td>
+<td>The identification of an entity where energy products are measured or compute...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../DuctBank/">DuctBank</a></td>
+<td>A duct contains individual wires in the layout as specified with associated w...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ClearanceDocument/">ClearanceDocument</a></td>
+<td>Safety document used to authorise work on conducting equipment in the field</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../GeneratingBid/">GeneratingBid</a></td>
+<td>Offer to supply energy/ancillary services from a generating unit or resource</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Tool/">Tool</a></td>
+<td>Tool asset</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../DefaultBid/">DefaultBid</a></td>
+<td>DefaultBid is a generic class to hold Default Energy Bid, Default Startup Bid...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Meter/">Meter</a></td>
+<td>Physical asset that performs the metering role of the usage point</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../TroubleOrder/">TroubleOrder</a></td>
+<td>Trouble order sends an incident to a crew to initiate a response to an unplan...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../WorkCostSummary/">WorkCostSummary</a></td>
+<td>A roll up by cost type for the entire cost of a work order</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MerchantAccount/">MerchantAccount</a></td>
+<td>The operating account controlled by merchant agreement, against which the ven...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../PlannedOutageNotification/">PlannedOutageNotification</a></td>
+<td>This class will be used to generate call ahead lists for customers who will b...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ResourceAwardClearing/">ResourceAwardClearing</a></td>
+<td>Models details of bid and offer market clearing</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../SwitchingOrder/">SwitchingOrder</a></td>
+<td>Transmits a switching plan to a crew in order for the plan to be executed</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../BusinessRole/">BusinessRole</a></td>
+<td>A business role that this organisation plays</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../IntSchedAgreement/">IntSchedAgreement</a></td>
+<td>A type of agreement that provides the default method by which interchange sch...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpInvoiceLineItem/">ErpInvoiceLineItem</a></td>
+<td>An individual line item on an invoice</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../WorkOrder/">WorkOrder</a></td>
+<td></td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../RightOfWay/">RightOfWay</a></td>
+<td>A right-of-way (ROW) is for land where it is lawful to use for a public road...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../OperationPersonRole/">OperationPersonRole</a></td>
+<td>Person role in the context of utility operations</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MarketSkill/">MarketSkill</a></td>
+<td>Proficiency level of a craft, which is required to operate or maintain a part...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../BankAccount/">BankAccount</a></td>
+<td>Bank account</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Regulation/">Regulation</a></td>
+<td>Special requirements and/or regulations may pertain to certain types of asset...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../InfoQuestion/">InfoQuestion</a></td>
+<td>Questions and answers associated with a type of document for purposes of clar...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../EnvironmentalDataAuthority/">EnvironmentalDataAuthority</a></td>
+<td>An entity defining classifications or categories of environmental information...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../PowerQualityPricing/">PowerQualityPricing</a></td>
+<td>Pricing can be based on power quality</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpEngChangeOrder/">ErpEngChangeOrder</a></td>
+<td>General Utility Engineering Change Order information</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ExPostLoss/">ExPostLoss</a></td>
+<td>Model of ex-post calcultion of MW losses</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Bank/">Bank</a></td>
+<td>Organisation that is a commercial bank, agency, or other institution that off...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Customer/">Customer</a></td>
+<td>Organisation receiving services from service supplier</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Procedure/">Procedure</a></td>
+<td>Documented procedure for various types of work or work tasks on assets</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpBankAccount/">ErpBankAccount</a></td>
+<td>Relationship under a particular name, usually evidenced by a deposit against ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ConstraintClearing/">ConstraintClearing</a></td>
+<td>Groups all items associated with Binding Constraints and Constraint Violation...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../LossSensitivity/">LossSensitivity</a></td>
+<td>Loss sensitivity applied to a ConnectivityNode for a given time interval</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Structure/">Structure</a></td>
+<td>Construction holding assets such as conductors, transformers, switchgear, etc</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../UsagePointLocation/">UsagePointLocation</a></td>
+<td>Location of an individual usage point</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Facility/">Facility</a></td>
+<td>A facility may contain buildings, storage facilities, switching facilities, p...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../PlannedOutage/">PlannedOutage</a></td>
+<td></td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../BusinessCase/">BusinessCase</a></td>
+<td>Business justification for capital expenditures, usually addressing operation...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../WorkLocation/">WorkLocation</a></td>
+<td>Information about a particular location for various forms of work</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../PricingStructure/">PricingStructure</a></td>
+<td>Grouping of pricing components and prices used in the creation of customer ch...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Streetlight/">Streetlight</a></td>
+<td>Streetlight asset</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Asset/">Asset</a></td>
+<td>Tangible resource of the utility, including power system equipment, various e...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ServiceCategory/">ServiceCategory</a></td>
+<td>Category of service provided to the customer</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../SwitchingPlan/">SwitchingPlan</a></td>
+<td>A sequence of grouped or atomic steps intended to:</td>
+<td></td>
+</tr>
+<tr>
+<td>no</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="../UsagePoint/">UsagePoint</a></td>
+<td>Logical or physical point in the network to which readings or events may be a...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpPOLineItem/">ErpPOLineItem</a></td>
+<td>Of an ErpPurchaseOrder, this is an individually ordered item or product along...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../OperationalUpdatedRating/">OperationalUpdatedRating</a></td>
+<td>Lowered capability because of deterioration or inadequacy (sometimes referred...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../GeneralClearing/">GeneralClearing</a></td>
+<td>Model of clearing result of the market run at the market level</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ErpJournal/">ErpJournal</a></td>
+<td>Book for recording accounting transactions as they occur</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../TariffProfile/">TariffProfile</a></td>
+<td>A schedule of charges; structure associated with Tariff that allows the defin...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Maintainer/">Maintainer</a></td>
+<td>Organisation that maintains assets</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../InternalLocation/">InternalLocation</a></td>
+<td>Description of location internal to a building</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Assignment/">Assignment</a></td>
+<td>An assignment is given to an ErpPerson, Crew, Organisation, Equipment Item, T...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../EnergyTransaction/">EnergyTransaction</a></td>
+<td>Specifies the schedule for energy transfers between interchange areas that ar...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../LossClearing/">LossClearing</a></td>
+<td>RT only and is published on 5 minute intervals for the previous RT time inter...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../TimeSchedule/">TimeSchedule</a></td>
+<td>Description of anything that changes through time</td>
+<td>no</td>
+</tr>
+</tbody>
+</table>
+<h2 id="properties">Properties</h2>
+<ul>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h2 id="linkml-source">LinkML Source</h2>
+<details>
+<div class="highlight"><pre><span></span><code><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">configuration_events</span>
+<span class="nt">alias</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">configuration_events</span>
+<span class="nt">domain_of</span><span class="p">:</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Asset</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Document</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PersonRole</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">OrganisationRole</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Location</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">UsagePoint</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ServiceCategory</span>
+<span class="nt">range</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">string</span>
+</code></pre></div>
+</details>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.tabs.link"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>

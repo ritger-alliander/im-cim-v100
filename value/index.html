@@ -1,0 +1,994 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ritger-alliander.github.io/im-cim-v100/value/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Slot: value - im-cim-v100</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4cae4f">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="deep-orange">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#slot-value" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="im-cim-v100" class="md-header__button md-logo" aria-label="im-cim-v100" data-md-component="logo">
+      
+  <img src="../assets/alliander_logo_wit.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            im-cim-v100
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Slot: value
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ritger-alliander/im-cim-v100" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="im-cim-v100" class="md-nav__button md-logo" aria-label="im-cim-v100" data-md-component="logo">
+      
+  <img src="../assets/alliander_logo_wit.png" alt="logo">
+
+    </a>
+    im-cim-v100
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ritger-alliander/im-cim-v100" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#applicable-classes" class="md-nav__link">
+    Applicable Classes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#identifier-and-mapping-information" class="md-nav__link">
+    Identifier and Mapping Information
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linkml-source" class="md-nav__link">
+    LinkML Source
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <a href="https://github.com/ritger-alliander/im-cim-v100/edit/master/docs/value.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<h1 id="slot-value">Slot: value</h1>
+<p>URI: <a href="https://cim.ucaiug.io/ns#value">cim:value</a></p>
+<!-- no inheritance hierarchy -->
+
+<h2 id="applicable-classes">Applicable Classes</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Modifies Slot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../CostRate/">CostRate</a></td>
+<td>Cost, in units of currency, per elapsed time</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../PumpingCostSchedule/">PumpingCostSchedule</a></td>
+<td>The operating cost of a Pump Storage Hydro Unit operating as a hydro pump</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Area/">Area</a></td>
+<td>Area</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ScheduledVoltageLimitValue/">ScheduledVoltageLimitValue</a></td>
+<td>A voltage limit value for a scheduled time</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../PerCent/">PerCent</a></td>
+<td>Percentage on a defined base</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Minutes/">Minutes</a></td>
+<td>Time in minutes</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ApparentPowerLimit/">ApparentPowerLimit</a></td>
+<td>Apparent power limit</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../HealthScore/">HealthScore</a></td>
+<td>Score that is indicative of the health of one or more assets</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Frequency/">Frequency</a></td>
+<td>Cycles per second</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../UserAttribute/">UserAttribute</a></td>
+<td>Generic name-value pair class, with optional sequence number and units for va...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Admittance/">Admittance</a></td>
+<td>Ratio of current to voltage</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../CommodityPrice/">CommodityPrice</a></td>
+<td>The CommodityPrice class is used to define the price of a commodity during a ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Money/">Money</a></td>
+<td>Amount of money</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MeterMultiplier/">MeterMultiplier</a></td>
+<td>Multiplier applied at the meter</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../BaseReading/">BaseReading</a></td>
+<td>Common representation for reading values</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MktUserAttribute/">MktUserAttribute</a></td>
+<td>Subclass of IEC61968:Domain2:UserAttribute</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Command/">Command</a></td>
+<td>A Command is a discrete control used for supervisory control</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../IntegerQuantity/">IntegerQuantity</a></td>
+<td>Quantity with integer value and associated unit information</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../EndDeviceEventDetail/">EndDeviceEventDetail</a></td>
+<td>Name-value pair, specific to end device events</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../CapacitancePerLength/">CapacitancePerLength</a></td>
+<td>Capacitance per unit of length</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Temperature/">Temperature</a></td>
+<td>Value of temperature in degrees Celsius</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ActivePowerPerFrequency/">ActivePowerPerFrequency</a></td>
+<td>Active power variation with frequency</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../WheelingReferenceSchedule/">WheelingReferenceSchedule</a></td>
+<td>A unique identifier of a wheeling transaction</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Pressure/">Pressure</a></td>
+<td>Pressure in pascals</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ActivePowerPerCurrentFlow/">ActivePowerPerCurrentFlow</a></td>
+<td>Active power variation with current flow</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../DecimalQuantity/">DecimalQuantity</a></td>
+<td>Quantity with decimal value and associated unit or currency information</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../CurrentLimit/">CurrentLimit</a></td>
+<td>Operational limit on current</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../StringMeasurementValue/">StringMeasurementValue</a></td>
+<td>StringMeasurementValue represents a measurement value of type string</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ValueToAlias/">ValueToAlias</a></td>
+<td>Describes the translation of one particular value into a name, e</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../SetPoint/">SetPoint</a></td>
+<td>An analog control that issues a set point value</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Damping/">Damping</a></td>
+<td>Per-unit active power variation with frequency referenced on the system appar...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../CostPerHeatUnit/">CostPerHeatUnit</a></td>
+<td>Cost, in units of currency, per quantity of heat generated</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MagneticField/">MagneticField</a></td>
+<td>Magnetic field in nanotesla</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Volume/">Volume</a></td>
+<td>Volume</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ReactancePerLength/">ReactancePerLength</a></td>
+<td>Reactance (imaginary part of impedance) per unit of length, at rated frequenc...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AccumulatorValue/">AccumulatorValue</a></td>
+<td>AccumulatorValue represents an accumulated (counted) MeasurementValue</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../FloatQuantity/">FloatQuantity</a></td>
+<td>Quantity with float value and associated unit information</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ScheduledCurrentLimitValue/">ScheduledCurrentLimitValue</a></td>
+<td>A current limit that is scheduled</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ConductancePerLength/">ConductancePerLength</a></td>
+<td>Real part of admittance per unit of length</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../MktAnalogLimit/">MktAnalogLimit</a></td>
+<td>Subclass of IEC 61970:Meas:AnalogLimit</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../RealEnergy/">RealEnergy</a></td>
+<td>Real electrical energy</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AngleDegrees/">AngleDegrees</a></td>
+<td>Measurement of angle in degrees</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../HeatRate/">HeatRate</a></td>
+<td>Heat generated, in energy per time unit of elapsed time</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Reading/">Reading</a></td>
+<td>Specific value measured by a meter or other asset, or calculated by a system</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../RiskScore/">RiskScore</a></td>
+<td>Score that is indicative of the risk associated with one or more assets</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../CostPerVolume/">CostPerVolume</a></td>
+<td>Cost per unit volume</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AggregateScore/">AggregateScore</a></td>
+<td>An aggregated indicative scoring by an analytic, which is based on other anal...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../PU/">PU</a></td>
+<td>Per Unit - a positive or negative value referred to a defined base</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../IrregularTimePoint/">IrregularTimePoint</a></td>
+<td>TimePoints for a schedule where the time between the points varies</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ActivePowerLimit/">ActivePowerLimit</a></td>
+<td>Limit on active power flow</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../KiloActivePower/">KiloActivePower</a></td>
+<td>Active power in kilowatts</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ApparentPower/">ApparentPower</a></td>
+<td>Product of the RMS value of the voltage and the RMS value of the current</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../CostPerEnergyUnit/">CostPerEnergyUnit</a></td>
+<td>Cost, in units of currency, per quantity of electrical energy generated</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Reactance/">Reactance</a></td>
+<td>Reactance (imaginary part of impedance), at rated frequency</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../IntervalReading/">IntervalReading</a></td>
+<td>Data captured at regular intervals of time</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Voltage/">Voltage</a></td>
+<td>Electrical voltage, can be both AC and DC</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../HourlyPreDispatchSchedule/">HourlyPreDispatchSchedule</a></td>
+<td>An indicator specifying that a resource shall have an Hourly Pre-Dispatch</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ReactivePower/">ReactivePower</a></td>
+<td>Product of RMS value of the voltage and the RMS value of the quadrature compo...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ScheduledActivePowerLimitValue/">ScheduledActivePowerLimitValue</a></td>
+<td></td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AngleRadians/">AngleRadians</a></td>
+<td>Phase angle in radians</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Susceptance/">Susceptance</a></td>
+<td>Imaginary part of admittance</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../RegularTimePoint/">RegularTimePoint</a></td>
+<td>Time point for a schedule where the time between the consecutive points is co...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Resistance/">Resistance</a></td>
+<td>Resistance (real part of impedance)</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ScheduledApparentPowerLimitValue/">ScheduledApparentPowerLimitValue</a></td>
+<td>A time scheduled value for apparent power limit</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ResistancePerLength/">ResistancePerLength</a></td>
+<td>Resistance (real part of impedance) per unit of length</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../VoltagePerReactivePower/">VoltagePerReactivePower</a></td>
+<td>Voltage variation with reactive power</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ServiceMultiplier/">ServiceMultiplier</a></td>
+<td>Multiplier applied at the usage point</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../PumpingLevelSchedule/">PumpingLevelSchedule</a></td>
+<td>The fixed operating level of a Pump Storage Hydro Unit operating as a hydro p...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Displacement/">Displacement</a></td>
+<td>Unit of displacement relative to a reference position, hence can be negative</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AnalogLimit/">AnalogLimit</a></td>
+<td>Limit values for Analog measurements</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ActivePowerChangeRate/">ActivePowerChangeRate</a></td>
+<td>Rate of change of active power per time</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../SusceptancePerLength/">SusceptancePerLength</a></td>
+<td>Imaginary part of admittance per unit of length</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Seconds/">Seconds</a></td>
+<td>Time, in seconds</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Hours/">Hours</a></td>
+<td>Time specified in hours</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Classification/">Classification</a></td>
+<td>Classification of level</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Capacitance/">Capacitance</a></td>
+<td>Capacitive part of reactance (imaginary part of impedance), at rated frequenc...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../InductancePerLength/">InductancePerLength</a></td>
+<td>Inductance per unit of length</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Inductance/">Inductance</a></td>
+<td>Inductive part of reactance (imaginary part of impedance), at rated frequency</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Bearing/">Bearing</a></td>
+<td>The bearing in degrees (with 360 degrees being True North)</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AccountingUnit/">AccountingUnit</a></td>
+<td>Unit for accounting; use either 'energyUnit' or 'currencyUnit' to specify the...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Conductance/">Conductance</a></td>
+<td>Factor by which voltage must be multiplied to give corresponding power lost f...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ActivePower/">ActivePower</a></td>
+<td>Product of RMS value of the voltage and the RMS value of the in-phase compone...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AccumulatorLimit/">AccumulatorLimit</a></td>
+<td>Limit values for Accumulator measurements</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Length/">Length</a></td>
+<td>Unit of length</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ParticulateDensity/">ParticulateDensity</a></td>
+<td>Particulate density as kg/m<sup>3</sup></td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../EnvironmentalCodedValue/">EnvironmentalCodedValue</a></td>
+<td>An environmental value described using a coded value</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../OpenTieSchedule/">OpenTieSchedule</a></td>
+<td>Result of bid validation against conditions that may exist on an interchange ...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Impedance/">Impedance</a></td>
+<td>Ratio of voltage to current</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AnalyticScore/">AnalyticScore</a></td>
+<td>An indicative scoring by an analytic that can be used to characterize the hea...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Mass/">Mass</a></td>
+<td>Mass</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Status/">Status</a></td>
+<td>Current status information relevant to an entity</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../WaterLevel/">WaterLevel</a></td>
+<td>Reservoir water level referred to a given datum such as mean sea level</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../VolumeFlowRate/">VolumeFlowRate</a></td>
+<td>Volume per time</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../CurrentFlow/">CurrentFlow</a></td>
+<td>Electrical current with sign convention: positive flow is out of the conducti...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../RotationSpeed/">RotationSpeed</a></td>
+<td>Number of revolutions per second</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../PumpingShutDownCostSchedule/">PumpingShutDownCostSchedule</a></td>
+<td>The cost to shutdown a Pump Storage Hydro Unit (in pump mode) or a pump</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../StringQuantity/">StringQuantity</a></td>
+<td>Quantity with string value (when it is not important whether it is an integra...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Speed/">Speed</a></td>
+<td>Distance per unit of time</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../DiscreteValue/">DiscreteValue</a></td>
+<td>DiscreteValue represents a discrete MeasurementValue</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../ChargeProfileData/">ChargeProfileData</a></td>
+<td>Model of various charges associated with an energy profile to support billing...</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../VoltageLimit/">VoltageLimit</a></td>
+<td>Operational limit applied to voltage</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../AnalogValue/">AnalogValue</a></td>
+<td>AnalogValue represents an analog MeasurementValue</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Emission/">Emission</a></td>
+<td>Quantity of emission per fuel heat content</td>
+<td>no</td>
+</tr>
+</tbody>
+</table>
+<h2 id="properties">Properties</h2>
+<ul>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h2 id="linkml-source">LinkML Source</h2>
+<details>
+<div class="highlight"><pre><span></span><code><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">value</span>
+<span class="nt">alias</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">value</span>
+<span class="nt">domain_of</span><span class="p">:</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VoltagePerReactivePower</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Length</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ConductancePerLength</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VolumeFlowRate</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Volume</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Voltage</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Temperature</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Admittance</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Impedance</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerVolume</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SusceptancePerLength</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Money</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Minutes</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">FloatQuantity</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerEnergyUnit</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PerCent</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">IntegerQuantity</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ApparentPower</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">WaterLevel</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Displacement</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Damping</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Seconds</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ResistancePerLength</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Inductance</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AngleDegrees</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostRate</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Speed</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Capacitance</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PU</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Pressure</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">KiloActivePower</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReactivePower</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">StringQuantity</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerChangeRate</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Hours</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Conductance</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RotationSpeed</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CurrentFlow</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Frequency</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AngleRadians</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePower</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ReactancePerLength</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Resistance</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Reactance</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Susceptance</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RealEnergy</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Classification</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HeatRate</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Emission</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CostPerHeatUnit</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerPerFrequency</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">InductancePerLength</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CapacitancePerLength</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DecimalQuantity</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Area</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerPerCurrentFlow</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Mass</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Status</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">UserAttribute</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AccountingUnit</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BaseReading</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">EndDeviceEventDetail</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MeterMultiplier</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RegularTimePoint</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AnalogValue</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AnalogLimit</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CommodityPrice</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ChargeProfileData</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">StringMeasurementValue</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Command</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DiscreteValue</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ValueToAlias</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ServiceMultiplier</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AnalyticScore</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">IrregularTimePoint</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ActivePowerLimit</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ApparentPowerLimit</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CurrentLimit</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VoltageLimit</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AccumulatorValue</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AccumulatorLimit</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SetPoint</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ScheduledActivePowerLimitValue</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ScheduledApparentPowerLimitValue</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ScheduledCurrentLimitValue</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ScheduledVoltageLimitValue</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MagneticField</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ParticulateDensity</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Bearing</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PumpingShutDownCostSchedule</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PumpingLevelSchedule</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HourlyPreDispatchSchedule</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PumpingCostSchedule</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">OpenTieSchedule</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">WheelingReferenceSchedule</span>
+<span class="nt">range</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">string</span>
+</code></pre></div>
+</details>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.tabs.link"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>

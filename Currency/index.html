@@ -1,0 +1,1710 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ritger-alliander.github.io/im-cim-v100/Currency/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Enum: Currency - im-cim-v100</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4cae4f">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="deep-orange">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#enum-currency" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="im-cim-v100" class="md-header__button md-logo" aria-label="im-cim-v100" data-md-component="logo">
+      
+  <img src="../assets/alliander_logo_wit.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            im-cim-v100
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Enum: Currency
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ritger-alliander/im-cim-v100" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="im-cim-v100" class="md-nav__button md-logo" aria-label="im-cim-v100" data-md-component="logo">
+      
+  <img src="../assets/alliander_logo_wit.png" alt="logo">
+
+    </a>
+    im-cim-v100
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ritger-alliander/im-cim-v100" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#permissible-values" class="md-nav__link">
+    Permissible Values
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slots" class="md-nav__link">
+    Slots
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#identifier-and-mapping-information" class="md-nav__link">
+    Identifier and Mapping Information
+  </a>
+  
+    <nav class="md-nav" aria-label="Identifier and Mapping Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#schema-source" class="md-nav__link">
+    Schema Source
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linkml-source" class="md-nav__link">
+    LinkML Source
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <a href="https://github.com/ritger-alliander/im-cim-v100/edit/master/docs/Currency.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<h1 id="enum-currency">Enum: Currency</h1>
+<p><em>Monetary currencies.  ISO 4217 standard including 3-character currency code.</em></p>
+<p>URI: <a href="./">Currency</a></p>
+<h2 id="permissible-values">Permissible Values</h2>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AED</td>
+<td>cim:Currency.AED</td>
+<td></td>
+</tr>
+<tr>
+<td>AFN</td>
+<td>cim:Currency.AFN</td>
+<td></td>
+</tr>
+<tr>
+<td>ALL</td>
+<td>cim:Currency.ALL</td>
+<td></td>
+</tr>
+<tr>
+<td>AMD</td>
+<td>cim:Currency.AMD</td>
+<td></td>
+</tr>
+<tr>
+<td>ANG</td>
+<td>cim:Currency.ANG</td>
+<td></td>
+</tr>
+<tr>
+<td>AOA</td>
+<td>cim:Currency.AOA</td>
+<td></td>
+</tr>
+<tr>
+<td>ARS</td>
+<td>cim:Currency.ARS</td>
+<td></td>
+</tr>
+<tr>
+<td>AUD</td>
+<td>cim:Currency.AUD</td>
+<td></td>
+</tr>
+<tr>
+<td>AWG</td>
+<td>cim:Currency.AWG</td>
+<td></td>
+</tr>
+<tr>
+<td>AZN</td>
+<td>cim:Currency.AZN</td>
+<td></td>
+</tr>
+<tr>
+<td>BAM</td>
+<td>cim:Currency.BAM</td>
+<td></td>
+</tr>
+<tr>
+<td>BBD</td>
+<td>cim:Currency.BBD</td>
+<td></td>
+</tr>
+<tr>
+<td>BDT</td>
+<td>cim:Currency.BDT</td>
+<td></td>
+</tr>
+<tr>
+<td>BGN</td>
+<td>cim:Currency.BGN</td>
+<td></td>
+</tr>
+<tr>
+<td>BHD</td>
+<td>cim:Currency.BHD</td>
+<td></td>
+</tr>
+<tr>
+<td>BIF</td>
+<td>cim:Currency.BIF</td>
+<td></td>
+</tr>
+<tr>
+<td>BMD</td>
+<td>cim:Currency.BMD</td>
+<td></td>
+</tr>
+<tr>
+<td>BND</td>
+<td>cim:Currency.BND</td>
+<td></td>
+</tr>
+<tr>
+<td>BOB</td>
+<td>cim:Currency.BOB</td>
+<td></td>
+</tr>
+<tr>
+<td>BOV</td>
+<td>cim:Currency.BOV</td>
+<td></td>
+</tr>
+<tr>
+<td>BRL</td>
+<td>cim:Currency.BRL</td>
+<td></td>
+</tr>
+<tr>
+<td>BSD</td>
+<td>cim:Currency.BSD</td>
+<td></td>
+</tr>
+<tr>
+<td>BTN</td>
+<td>cim:Currency.BTN</td>
+<td></td>
+</tr>
+<tr>
+<td>BWP</td>
+<td>cim:Currency.BWP</td>
+<td></td>
+</tr>
+<tr>
+<td>BYR</td>
+<td>cim:Currency.BYR</td>
+<td></td>
+</tr>
+<tr>
+<td>BZD</td>
+<td>cim:Currency.BZD</td>
+<td></td>
+</tr>
+<tr>
+<td>CAD</td>
+<td>cim:Currency.CAD</td>
+<td></td>
+</tr>
+<tr>
+<td>CDF</td>
+<td>cim:Currency.CDF</td>
+<td></td>
+</tr>
+<tr>
+<td>CHF</td>
+<td>cim:Currency.CHF</td>
+<td></td>
+</tr>
+<tr>
+<td>CLF</td>
+<td>cim:Currency.CLF</td>
+<td></td>
+</tr>
+<tr>
+<td>CLP</td>
+<td>cim:Currency.CLP</td>
+<td></td>
+</tr>
+<tr>
+<td>CNY</td>
+<td>cim:Currency.CNY</td>
+<td></td>
+</tr>
+<tr>
+<td>COP</td>
+<td>cim:Currency.COP</td>
+<td></td>
+</tr>
+<tr>
+<td>COU</td>
+<td>cim:Currency.COU</td>
+<td></td>
+</tr>
+<tr>
+<td>CRC</td>
+<td>cim:Currency.CRC</td>
+<td></td>
+</tr>
+<tr>
+<td>CUC</td>
+<td>cim:Currency.CUC</td>
+<td></td>
+</tr>
+<tr>
+<td>CUP</td>
+<td>cim:Currency.CUP</td>
+<td></td>
+</tr>
+<tr>
+<td>CVE</td>
+<td>cim:Currency.CVE</td>
+<td></td>
+</tr>
+<tr>
+<td>CZK</td>
+<td>cim:Currency.CZK</td>
+<td></td>
+</tr>
+<tr>
+<td>DJF</td>
+<td>cim:Currency.DJF</td>
+<td></td>
+</tr>
+<tr>
+<td>DKK</td>
+<td>cim:Currency.DKK</td>
+<td></td>
+</tr>
+<tr>
+<td>DOP</td>
+<td>cim:Currency.DOP</td>
+<td></td>
+</tr>
+<tr>
+<td>DZD</td>
+<td>cim:Currency.DZD</td>
+<td></td>
+</tr>
+<tr>
+<td>EEK</td>
+<td>cim:Currency.EEK</td>
+<td></td>
+</tr>
+<tr>
+<td>EGP</td>
+<td>cim:Currency.EGP</td>
+<td></td>
+</tr>
+<tr>
+<td>ERN</td>
+<td>cim:Currency.ERN</td>
+<td></td>
+</tr>
+<tr>
+<td>ETB</td>
+<td>cim:Currency.ETB</td>
+<td></td>
+</tr>
+<tr>
+<td>EUR</td>
+<td>cim:Currency.EUR</td>
+<td></td>
+</tr>
+<tr>
+<td>FJD</td>
+<td>cim:Currency.FJD</td>
+<td></td>
+</tr>
+<tr>
+<td>FKP</td>
+<td>cim:Currency.FKP</td>
+<td></td>
+</tr>
+<tr>
+<td>GBP</td>
+<td>cim:Currency.GBP</td>
+<td></td>
+</tr>
+<tr>
+<td>GEL</td>
+<td>cim:Currency.GEL</td>
+<td></td>
+</tr>
+<tr>
+<td>GHS</td>
+<td>cim:Currency.GHS</td>
+<td></td>
+</tr>
+<tr>
+<td>GIP</td>
+<td>cim:Currency.GIP</td>
+<td></td>
+</tr>
+<tr>
+<td>GMD</td>
+<td>cim:Currency.GMD</td>
+<td></td>
+</tr>
+<tr>
+<td>GNF</td>
+<td>cim:Currency.GNF</td>
+<td></td>
+</tr>
+<tr>
+<td>GTQ</td>
+<td>cim:Currency.GTQ</td>
+<td></td>
+</tr>
+<tr>
+<td>GYD</td>
+<td>cim:Currency.GYD</td>
+<td></td>
+</tr>
+<tr>
+<td>HKD</td>
+<td>cim:Currency.HKD</td>
+<td></td>
+</tr>
+<tr>
+<td>HNL</td>
+<td>cim:Currency.HNL</td>
+<td></td>
+</tr>
+<tr>
+<td>HRK</td>
+<td>cim:Currency.HRK</td>
+<td></td>
+</tr>
+<tr>
+<td>HTG</td>
+<td>cim:Currency.HTG</td>
+<td></td>
+</tr>
+<tr>
+<td>HUF</td>
+<td>cim:Currency.HUF</td>
+<td></td>
+</tr>
+<tr>
+<td>IDR</td>
+<td>cim:Currency.IDR</td>
+<td></td>
+</tr>
+<tr>
+<td>ILS</td>
+<td>cim:Currency.ILS</td>
+<td></td>
+</tr>
+<tr>
+<td>INR</td>
+<td>cim:Currency.INR</td>
+<td></td>
+</tr>
+<tr>
+<td>IQD</td>
+<td>cim:Currency.IQD</td>
+<td></td>
+</tr>
+<tr>
+<td>IRR</td>
+<td>cim:Currency.IRR</td>
+<td></td>
+</tr>
+<tr>
+<td>ISK</td>
+<td>cim:Currency.ISK</td>
+<td></td>
+</tr>
+<tr>
+<td>JMD</td>
+<td>cim:Currency.JMD</td>
+<td></td>
+</tr>
+<tr>
+<td>JOD</td>
+<td>cim:Currency.JOD</td>
+<td></td>
+</tr>
+<tr>
+<td>JPY</td>
+<td>cim:Currency.JPY</td>
+<td></td>
+</tr>
+<tr>
+<td>KES</td>
+<td>cim:Currency.KES</td>
+<td></td>
+</tr>
+<tr>
+<td>KGS</td>
+<td>cim:Currency.KGS</td>
+<td></td>
+</tr>
+<tr>
+<td>KHR</td>
+<td>cim:Currency.KHR</td>
+<td></td>
+</tr>
+<tr>
+<td>KMF</td>
+<td>cim:Currency.KMF</td>
+<td></td>
+</tr>
+<tr>
+<td>KPW</td>
+<td>cim:Currency.KPW</td>
+<td></td>
+</tr>
+<tr>
+<td>KRW</td>
+<td>cim:Currency.KRW</td>
+<td></td>
+</tr>
+<tr>
+<td>KWD</td>
+<td>cim:Currency.KWD</td>
+<td></td>
+</tr>
+<tr>
+<td>KYD</td>
+<td>cim:Currency.KYD</td>
+<td></td>
+</tr>
+<tr>
+<td>KZT</td>
+<td>cim:Currency.KZT</td>
+<td></td>
+</tr>
+<tr>
+<td>LAK</td>
+<td>cim:Currency.LAK</td>
+<td></td>
+</tr>
+<tr>
+<td>LBP</td>
+<td>cim:Currency.LBP</td>
+<td></td>
+</tr>
+<tr>
+<td>LKR</td>
+<td>cim:Currency.LKR</td>
+<td></td>
+</tr>
+<tr>
+<td>LRD</td>
+<td>cim:Currency.LRD</td>
+<td></td>
+</tr>
+<tr>
+<td>LSL</td>
+<td>cim:Currency.LSL</td>
+<td></td>
+</tr>
+<tr>
+<td>LTL</td>
+<td>cim:Currency.LTL</td>
+<td></td>
+</tr>
+<tr>
+<td>LVL</td>
+<td>cim:Currency.LVL</td>
+<td></td>
+</tr>
+<tr>
+<td>LYD</td>
+<td>cim:Currency.LYD</td>
+<td></td>
+</tr>
+<tr>
+<td>MAD</td>
+<td>cim:Currency.MAD</td>
+<td></td>
+</tr>
+<tr>
+<td>MDL</td>
+<td>cim:Currency.MDL</td>
+<td></td>
+</tr>
+<tr>
+<td>MGA</td>
+<td>cim:Currency.MGA</td>
+<td></td>
+</tr>
+<tr>
+<td>MKD</td>
+<td>cim:Currency.MKD</td>
+<td></td>
+</tr>
+<tr>
+<td>MMK</td>
+<td>cim:Currency.MMK</td>
+<td></td>
+</tr>
+<tr>
+<td>MNT</td>
+<td>cim:Currency.MNT</td>
+<td></td>
+</tr>
+<tr>
+<td>MOP</td>
+<td>cim:Currency.MOP</td>
+<td></td>
+</tr>
+<tr>
+<td>MRO</td>
+<td>cim:Currency.MRO</td>
+<td></td>
+</tr>
+<tr>
+<td>MUR</td>
+<td>cim:Currency.MUR</td>
+<td></td>
+</tr>
+<tr>
+<td>MVR</td>
+<td>cim:Currency.MVR</td>
+<td></td>
+</tr>
+<tr>
+<td>MWK</td>
+<td>cim:Currency.MWK</td>
+<td></td>
+</tr>
+<tr>
+<td>MXN</td>
+<td>cim:Currency.MXN</td>
+<td></td>
+</tr>
+<tr>
+<td>MYR</td>
+<td>cim:Currency.MYR</td>
+<td></td>
+</tr>
+<tr>
+<td>MZN</td>
+<td>cim:Currency.MZN</td>
+<td></td>
+</tr>
+<tr>
+<td>NAD</td>
+<td>cim:Currency.NAD</td>
+<td></td>
+</tr>
+<tr>
+<td>NGN</td>
+<td>cim:Currency.NGN</td>
+<td></td>
+</tr>
+<tr>
+<td>NIO</td>
+<td>cim:Currency.NIO</td>
+<td></td>
+</tr>
+<tr>
+<td>NOK</td>
+<td>cim:Currency.NOK</td>
+<td></td>
+</tr>
+<tr>
+<td>NPR</td>
+<td>cim:Currency.NPR</td>
+<td></td>
+</tr>
+<tr>
+<td>NZD</td>
+<td>cim:Currency.NZD</td>
+<td></td>
+</tr>
+<tr>
+<td>OMR</td>
+<td>cim:Currency.OMR</td>
+<td></td>
+</tr>
+<tr>
+<td>PAB</td>
+<td>cim:Currency.PAB</td>
+<td></td>
+</tr>
+<tr>
+<td>PEN</td>
+<td>cim:Currency.PEN</td>
+<td></td>
+</tr>
+<tr>
+<td>PGK</td>
+<td>cim:Currency.PGK</td>
+<td></td>
+</tr>
+<tr>
+<td>PHP</td>
+<td>cim:Currency.PHP</td>
+<td></td>
+</tr>
+<tr>
+<td>PKR</td>
+<td>cim:Currency.PKR</td>
+<td></td>
+</tr>
+<tr>
+<td>PLN</td>
+<td>cim:Currency.PLN</td>
+<td></td>
+</tr>
+<tr>
+<td>PYG</td>
+<td>cim:Currency.PYG</td>
+<td></td>
+</tr>
+<tr>
+<td>QAR</td>
+<td>cim:Currency.QAR</td>
+<td></td>
+</tr>
+<tr>
+<td>RON</td>
+<td>cim:Currency.RON</td>
+<td></td>
+</tr>
+<tr>
+<td>RSD</td>
+<td>cim:Currency.RSD</td>
+<td></td>
+</tr>
+<tr>
+<td>RUB</td>
+<td>cim:Currency.RUB</td>
+<td></td>
+</tr>
+<tr>
+<td>RWF</td>
+<td>cim:Currency.RWF</td>
+<td></td>
+</tr>
+<tr>
+<td>SAR</td>
+<td>cim:Currency.SAR</td>
+<td></td>
+</tr>
+<tr>
+<td>SBD</td>
+<td>cim:Currency.SBD</td>
+<td></td>
+</tr>
+<tr>
+<td>SCR</td>
+<td>cim:Currency.SCR</td>
+<td></td>
+</tr>
+<tr>
+<td>SDG</td>
+<td>cim:Currency.SDG</td>
+<td></td>
+</tr>
+<tr>
+<td>SEK</td>
+<td>cim:Currency.SEK</td>
+<td></td>
+</tr>
+<tr>
+<td>SGD</td>
+<td>cim:Currency.SGD</td>
+<td></td>
+</tr>
+<tr>
+<td>SHP</td>
+<td>cim:Currency.SHP</td>
+<td></td>
+</tr>
+<tr>
+<td>SLL</td>
+<td>cim:Currency.SLL</td>
+<td></td>
+</tr>
+<tr>
+<td>SOS</td>
+<td>cim:Currency.SOS</td>
+<td></td>
+</tr>
+<tr>
+<td>SRD</td>
+<td>cim:Currency.SRD</td>
+<td></td>
+</tr>
+<tr>
+<td>STD</td>
+<td>cim:Currency.STD</td>
+<td></td>
+</tr>
+<tr>
+<td>SYP</td>
+<td>cim:Currency.SYP</td>
+<td></td>
+</tr>
+<tr>
+<td>SZL</td>
+<td>cim:Currency.SZL</td>
+<td></td>
+</tr>
+<tr>
+<td>THB</td>
+<td>cim:Currency.THB</td>
+<td></td>
+</tr>
+<tr>
+<td>TJS</td>
+<td>cim:Currency.TJS</td>
+<td></td>
+</tr>
+<tr>
+<td>TMT</td>
+<td>cim:Currency.TMT</td>
+<td></td>
+</tr>
+<tr>
+<td>TND</td>
+<td>cim:Currency.TND</td>
+<td></td>
+</tr>
+<tr>
+<td>TOP</td>
+<td>cim:Currency.TOP</td>
+<td></td>
+</tr>
+<tr>
+<td>TRY</td>
+<td>cim:Currency.TRY</td>
+<td></td>
+</tr>
+<tr>
+<td>TTD</td>
+<td>cim:Currency.TTD</td>
+<td></td>
+</tr>
+<tr>
+<td>TWD</td>
+<td>cim:Currency.TWD</td>
+<td></td>
+</tr>
+<tr>
+<td>TZS</td>
+<td>cim:Currency.TZS</td>
+<td></td>
+</tr>
+<tr>
+<td>UAH</td>
+<td>cim:Currency.UAH</td>
+<td></td>
+</tr>
+<tr>
+<td>UGX</td>
+<td>cim:Currency.UGX</td>
+<td></td>
+</tr>
+<tr>
+<td>USD</td>
+<td>cim:Currency.USD</td>
+<td></td>
+</tr>
+<tr>
+<td>UYU</td>
+<td>cim:Currency.UYU</td>
+<td></td>
+</tr>
+<tr>
+<td>UZS</td>
+<td>cim:Currency.UZS</td>
+<td></td>
+</tr>
+<tr>
+<td>VEF</td>
+<td>cim:Currency.VEF</td>
+<td></td>
+</tr>
+<tr>
+<td>VND</td>
+<td>cim:Currency.VND</td>
+<td></td>
+</tr>
+<tr>
+<td>VUV</td>
+<td>cim:Currency.VUV</td>
+<td></td>
+</tr>
+<tr>
+<td>WST</td>
+<td>cim:Currency.WST</td>
+<td></td>
+</tr>
+<tr>
+<td>XAF</td>
+<td>cim:Currency.XAF</td>
+<td></td>
+</tr>
+<tr>
+<td>XCD</td>
+<td>cim:Currency.XCD</td>
+<td></td>
+</tr>
+<tr>
+<td>XOF</td>
+<td>cim:Currency.XOF</td>
+<td></td>
+</tr>
+<tr>
+<td>XPF</td>
+<td>cim:Currency.XPF</td>
+<td></td>
+</tr>
+<tr>
+<td>YER</td>
+<td>cim:Currency.YER</td>
+<td></td>
+</tr>
+<tr>
+<td>ZAR</td>
+<td>cim:Currency.ZAR</td>
+<td></td>
+</tr>
+<tr>
+<td>ZMK</td>
+<td>cim:Currency.ZMK</td>
+<td></td>
+</tr>
+<tr>
+<td>ZWL</td>
+<td>cim:Currency.ZWL</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../currency/">currency</a></td>
+<td>Currency of this quantity</td>
+</tr>
+<tr>
+<td><a href="../monetary_unit/">monetary_unit</a></td>
+<td>Unit of currency</td>
+</tr>
+<tr>
+<td><a href="../commodity_currency/">commodity_currency</a></td>
+<td>The currency in which the Commodity is traded, using the standard conventions...</td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://cim.ucaiug.io/ns#TC57CIM</li>
+</ul>
+<h2 id="linkml-source">LinkML Source</h2>
+<details>
+<div class="highlight"><pre><span></span><code><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Currency</span>
+<span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Monetary currencies.  ISO 4217 standard including 3-character currency</span>
+<span class="w">  </span><span class="l l-Scalar l-Scalar-Plain">code.</span>
+<span class="nt">from_schema</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://cim.ucaiug.io/ns#TC57CIM</span>
+<span class="nt">rank</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1000</span>
+<span class="nt">enum_uri</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency</span>
+<span class="nt">permissible_values</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">AED</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AED</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.AED</span>
+<span class="w">  </span><span class="nt">AFN</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AFN</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.AFN</span>
+<span class="w">  </span><span class="nt">ALL</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ALL</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.ALL</span>
+<span class="w">  </span><span class="nt">AMD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AMD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.AMD</span>
+<span class="w">  </span><span class="nt">ANG</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ANG</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.ANG</span>
+<span class="w">  </span><span class="nt">AOA</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AOA</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.AOA</span>
+<span class="w">  </span><span class="nt">ARS</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ARS</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.ARS</span>
+<span class="w">  </span><span class="nt">AUD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AUD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.AUD</span>
+<span class="w">  </span><span class="nt">AWG</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AWG</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.AWG</span>
+<span class="w">  </span><span class="nt">AZN</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">AZN</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.AZN</span>
+<span class="w">  </span><span class="nt">BAM</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BAM</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.BAM</span>
+<span class="w">  </span><span class="nt">BBD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BBD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.BBD</span>
+<span class="w">  </span><span class="nt">BDT</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BDT</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.BDT</span>
+<span class="w">  </span><span class="nt">BGN</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BGN</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.BGN</span>
+<span class="w">  </span><span class="nt">BHD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BHD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.BHD</span>
+<span class="w">  </span><span class="nt">BIF</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BIF</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.BIF</span>
+<span class="w">  </span><span class="nt">BMD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BMD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.BMD</span>
+<span class="w">  </span><span class="nt">BND</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BND</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.BND</span>
+<span class="w">  </span><span class="nt">BOB</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BOB</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.BOB</span>
+<span class="w">  </span><span class="nt">BOV</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BOV</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.BOV</span>
+<span class="w">  </span><span class="nt">BRL</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BRL</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.BRL</span>
+<span class="w">  </span><span class="nt">BSD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BSD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.BSD</span>
+<span class="w">  </span><span class="nt">BTN</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BTN</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.BTN</span>
+<span class="w">  </span><span class="nt">BWP</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BWP</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.BWP</span>
+<span class="w">  </span><span class="nt">BYR</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BYR</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.BYR</span>
+<span class="w">  </span><span class="nt">BZD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">BZD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.BZD</span>
+<span class="w">  </span><span class="nt">CAD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CAD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.CAD</span>
+<span class="w">  </span><span class="nt">CDF</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CDF</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.CDF</span>
+<span class="w">  </span><span class="nt">CHF</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CHF</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.CHF</span>
+<span class="w">  </span><span class="nt">CLF</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CLF</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.CLF</span>
+<span class="w">  </span><span class="nt">CLP</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CLP</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.CLP</span>
+<span class="w">  </span><span class="nt">CNY</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CNY</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.CNY</span>
+<span class="w">  </span><span class="nt">COP</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">COP</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.COP</span>
+<span class="w">  </span><span class="nt">COU</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">COU</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.COU</span>
+<span class="w">  </span><span class="nt">CRC</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CRC</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.CRC</span>
+<span class="w">  </span><span class="nt">CUC</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CUC</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.CUC</span>
+<span class="w">  </span><span class="nt">CUP</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CUP</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.CUP</span>
+<span class="w">  </span><span class="nt">CVE</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CVE</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.CVE</span>
+<span class="w">  </span><span class="nt">CZK</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CZK</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.CZK</span>
+<span class="w">  </span><span class="nt">DJF</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DJF</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.DJF</span>
+<span class="w">  </span><span class="nt">DKK</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DKK</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.DKK</span>
+<span class="w">  </span><span class="nt">DOP</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DOP</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.DOP</span>
+<span class="w">  </span><span class="nt">DZD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DZD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.DZD</span>
+<span class="w">  </span><span class="nt">EEK</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">EEK</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.EEK</span>
+<span class="w">  </span><span class="nt">EGP</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">EGP</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.EGP</span>
+<span class="w">  </span><span class="nt">ERN</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ERN</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.ERN</span>
+<span class="w">  </span><span class="nt">ETB</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ETB</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.ETB</span>
+<span class="w">  </span><span class="nt">EUR</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">EUR</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.EUR</span>
+<span class="w">  </span><span class="nt">FJD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">FJD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.FJD</span>
+<span class="w">  </span><span class="nt">FKP</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">FKP</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.FKP</span>
+<span class="w">  </span><span class="nt">GBP</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">GBP</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.GBP</span>
+<span class="w">  </span><span class="nt">GEL</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">GEL</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.GEL</span>
+<span class="w">  </span><span class="nt">GHS</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">GHS</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.GHS</span>
+<span class="w">  </span><span class="nt">GIP</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">GIP</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.GIP</span>
+<span class="w">  </span><span class="nt">GMD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">GMD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.GMD</span>
+<span class="w">  </span><span class="nt">GNF</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">GNF</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.GNF</span>
+<span class="w">  </span><span class="nt">GTQ</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">GTQ</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.GTQ</span>
+<span class="w">  </span><span class="nt">GYD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">GYD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.GYD</span>
+<span class="w">  </span><span class="nt">HKD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HKD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.HKD</span>
+<span class="w">  </span><span class="nt">HNL</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HNL</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.HNL</span>
+<span class="w">  </span><span class="nt">HRK</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HRK</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.HRK</span>
+<span class="w">  </span><span class="nt">HTG</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HTG</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.HTG</span>
+<span class="w">  </span><span class="nt">HUF</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">HUF</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.HUF</span>
+<span class="w">  </span><span class="nt">IDR</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">IDR</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.IDR</span>
+<span class="w">  </span><span class="nt">ILS</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ILS</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.ILS</span>
+<span class="w">  </span><span class="nt">INR</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">INR</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.INR</span>
+<span class="w">  </span><span class="nt">IQD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">IQD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.IQD</span>
+<span class="w">  </span><span class="nt">IRR</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">IRR</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.IRR</span>
+<span class="w">  </span><span class="nt">ISK</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ISK</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.ISK</span>
+<span class="w">  </span><span class="nt">JMD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">JMD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.JMD</span>
+<span class="w">  </span><span class="nt">JOD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">JOD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.JOD</span>
+<span class="w">  </span><span class="nt">JPY</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">JPY</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.JPY</span>
+<span class="w">  </span><span class="nt">KES</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">KES</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.KES</span>
+<span class="w">  </span><span class="nt">KGS</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">KGS</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.KGS</span>
+<span class="w">  </span><span class="nt">KHR</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">KHR</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.KHR</span>
+<span class="w">  </span><span class="nt">KMF</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">KMF</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.KMF</span>
+<span class="w">  </span><span class="nt">KPW</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">KPW</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.KPW</span>
+<span class="w">  </span><span class="nt">KRW</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">KRW</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.KRW</span>
+<span class="w">  </span><span class="nt">KWD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">KWD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.KWD</span>
+<span class="w">  </span><span class="nt">KYD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">KYD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.KYD</span>
+<span class="w">  </span><span class="nt">KZT</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">KZT</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.KZT</span>
+<span class="w">  </span><span class="nt">LAK</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">LAK</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.LAK</span>
+<span class="w">  </span><span class="nt">LBP</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">LBP</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.LBP</span>
+<span class="w">  </span><span class="nt">LKR</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">LKR</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.LKR</span>
+<span class="w">  </span><span class="nt">LRD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">LRD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.LRD</span>
+<span class="w">  </span><span class="nt">LSL</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">LSL</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.LSL</span>
+<span class="w">  </span><span class="nt">LTL</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">LTL</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.LTL</span>
+<span class="w">  </span><span class="nt">LVL</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">LVL</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.LVL</span>
+<span class="w">  </span><span class="nt">LYD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">LYD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.LYD</span>
+<span class="w">  </span><span class="nt">MAD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MAD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.MAD</span>
+<span class="w">  </span><span class="nt">MDL</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MDL</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.MDL</span>
+<span class="w">  </span><span class="nt">MGA</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MGA</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.MGA</span>
+<span class="w">  </span><span class="nt">MKD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MKD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.MKD</span>
+<span class="w">  </span><span class="nt">MMK</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MMK</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.MMK</span>
+<span class="w">  </span><span class="nt">MNT</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MNT</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.MNT</span>
+<span class="w">  </span><span class="nt">MOP</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MOP</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.MOP</span>
+<span class="w">  </span><span class="nt">MRO</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MRO</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.MRO</span>
+<span class="w">  </span><span class="nt">MUR</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MUR</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.MUR</span>
+<span class="w">  </span><span class="nt">MVR</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MVR</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.MVR</span>
+<span class="w">  </span><span class="nt">MWK</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MWK</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.MWK</span>
+<span class="w">  </span><span class="nt">MXN</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MXN</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.MXN</span>
+<span class="w">  </span><span class="nt">MYR</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MYR</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.MYR</span>
+<span class="w">  </span><span class="nt">MZN</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MZN</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.MZN</span>
+<span class="w">  </span><span class="nt">NAD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">NAD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.NAD</span>
+<span class="w">  </span><span class="nt">NGN</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">NGN</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.NGN</span>
+<span class="w">  </span><span class="nt">NIO</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">NIO</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.NIO</span>
+<span class="w">  </span><span class="nt">NOK</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">NOK</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.NOK</span>
+<span class="w">  </span><span class="nt">NPR</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">NPR</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.NPR</span>
+<span class="w">  </span><span class="nt">NZD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">NZD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.NZD</span>
+<span class="w">  </span><span class="nt">OMR</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">OMR</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.OMR</span>
+<span class="w">  </span><span class="nt">PAB</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PAB</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.PAB</span>
+<span class="w">  </span><span class="nt">PEN</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PEN</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.PEN</span>
+<span class="w">  </span><span class="nt">PGK</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PGK</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.PGK</span>
+<span class="w">  </span><span class="nt">PHP</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PHP</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.PHP</span>
+<span class="w">  </span><span class="nt">PKR</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PKR</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.PKR</span>
+<span class="w">  </span><span class="nt">PLN</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PLN</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.PLN</span>
+<span class="w">  </span><span class="nt">PYG</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PYG</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.PYG</span>
+<span class="w">  </span><span class="nt">QAR</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">QAR</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.QAR</span>
+<span class="w">  </span><span class="nt">RON</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RON</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.RON</span>
+<span class="w">  </span><span class="nt">RSD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RSD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.RSD</span>
+<span class="w">  </span><span class="nt">RUB</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RUB</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.RUB</span>
+<span class="w">  </span><span class="nt">RWF</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">RWF</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.RWF</span>
+<span class="w">  </span><span class="nt">SAR</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SAR</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.SAR</span>
+<span class="w">  </span><span class="nt">SBD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SBD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.SBD</span>
+<span class="w">  </span><span class="nt">SCR</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SCR</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.SCR</span>
+<span class="w">  </span><span class="nt">SDG</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SDG</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.SDG</span>
+<span class="w">  </span><span class="nt">SEK</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SEK</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.SEK</span>
+<span class="w">  </span><span class="nt">SGD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SGD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.SGD</span>
+<span class="w">  </span><span class="nt">SHP</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SHP</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.SHP</span>
+<span class="w">  </span><span class="nt">SLL</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SLL</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.SLL</span>
+<span class="w">  </span><span class="nt">SOS</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SOS</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.SOS</span>
+<span class="w">  </span><span class="nt">SRD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SRD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.SRD</span>
+<span class="w">  </span><span class="nt">STD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">STD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.STD</span>
+<span class="w">  </span><span class="nt">SYP</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SYP</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.SYP</span>
+<span class="w">  </span><span class="nt">SZL</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SZL</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.SZL</span>
+<span class="w">  </span><span class="nt">THB</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">THB</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.THB</span>
+<span class="w">  </span><span class="nt">TJS</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">TJS</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.TJS</span>
+<span class="w">  </span><span class="nt">TMT</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">TMT</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.TMT</span>
+<span class="w">  </span><span class="nt">TND</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">TND</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.TND</span>
+<span class="w">  </span><span class="nt">TOP</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">TOP</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.TOP</span>
+<span class="w">  </span><span class="nt">TRY</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">TRY</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.TRY</span>
+<span class="w">  </span><span class="nt">TTD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">TTD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.TTD</span>
+<span class="w">  </span><span class="nt">TWD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">TWD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.TWD</span>
+<span class="w">  </span><span class="nt">TZS</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">TZS</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.TZS</span>
+<span class="w">  </span><span class="nt">UAH</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">UAH</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.UAH</span>
+<span class="w">  </span><span class="nt">UGX</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">UGX</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.UGX</span>
+<span class="w">  </span><span class="nt">USD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">USD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.USD</span>
+<span class="w">  </span><span class="nt">UYU</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">UYU</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.UYU</span>
+<span class="w">  </span><span class="nt">UZS</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">UZS</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.UZS</span>
+<span class="w">  </span><span class="nt">VEF</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VEF</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.VEF</span>
+<span class="w">  </span><span class="nt">VND</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VND</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.VND</span>
+<span class="w">  </span><span class="nt">VUV</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VUV</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.VUV</span>
+<span class="w">  </span><span class="nt">WST</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">WST</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.WST</span>
+<span class="w">  </span><span class="nt">XAF</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">XAF</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.XAF</span>
+<span class="w">  </span><span class="nt">XCD</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">XCD</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.XCD</span>
+<span class="w">  </span><span class="nt">XOF</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">XOF</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.XOF</span>
+<span class="w">  </span><span class="nt">XPF</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">XPF</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.XPF</span>
+<span class="w">  </span><span class="nt">YER</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">YER</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.YER</span>
+<span class="w">  </span><span class="nt">ZAR</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ZAR</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.ZAR</span>
+<span class="w">  </span><span class="nt">ZMK</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ZMK</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.ZMK</span>
+<span class="w">  </span><span class="nt">ZWL</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ZWL</span>
+<span class="w">    </span><span class="nt">meaning</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cim:Currency.ZWL</span>
+</code></pre></div>
+</details>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.tabs.link"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>
