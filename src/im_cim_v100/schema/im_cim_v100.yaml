@@ -3,6 +3,7 @@ title: TC57CIM
 created_by: https://github.com/bartkl/cim-to-linkml
 contributors:
 - github:bartkl
+- github:ritger-alliander
 id: https://cim.ucaiug.io/ns#TC57CIM
 imports:
 - linkml:types
