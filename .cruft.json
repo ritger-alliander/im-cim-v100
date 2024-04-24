@@ -1,0 +1,27 @@
+{
+  "template": "https://github.com/linkml/linkml-project-cookiecutter",
+  "commit": "d9b85bbbdcc49163416a3e3e18e23fe2ecce501b",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "im-cim-v100",
+      "__project_slug": "im_cim_v100",
+      "github_org": "ritger-alliander",
+      "__source_path": "src/im_cim_v100/schema/im_cim_v100.yaml",
+      "project_description": "TC57CIM Packages",
+      "full_name": "Ritger Teunissen",
+      "email": "ritger.teunissen@alliander.com",
+      "__author": "Ritger Teunissen <ritger.teunissen@alliander.com>",
+      "license": "Apache Software License 2.0",
+      "main_schema_class": "IdentifiedObject",
+      "create_python_classes": "No",
+      "use_schemasheets": "No",
+      "google_sheet_id": "1wVoaiFg47aT9YWNeRfTZ8tYHN8s8PAuDx5i2HUcDpvQ",
+      "google_sheet_tabs": "personinfo enums",
+      "__google_sheet_module": "personinfo_enums",
+      "github_token_for_pypi_deployment": "PYPI_PASSWORD",
+      "_template": "https://github.com/linkml/linkml-project-cookiecutter"
+    }
+  },
+  "directory": null
+}
